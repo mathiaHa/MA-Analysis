@@ -36,6 +36,12 @@ Pour les ressources:
 		 * registry_consumption_controles_measures
 	* signal:
 		* signals
+* RTE-Production:
+	* actual_generation:
+		* actual_generations_per_production_type
+		* actual_generations_per_unit
+		* generation_mix_15min_time_scale
+		* water_reserves
 ### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/RTE-Equilibrage-Balancing_energy.pdf)
 
 Pour les ressources:
