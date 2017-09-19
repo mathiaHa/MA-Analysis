@@ -53,6 +53,9 @@ Pour les ressources:
 		* transmission_network_unavailabilities
 	* wholesale_market
 		* epex_spot_power_exchanges
+* RTE-Consommation:
+	* tempo_like_supply_contract
+		* tempo_like_calendars
 	
 ### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/RTE-Equilibrage-Balancing_energy.pdf)
 
