@@ -82,7 +82,7 @@ Pour les ressources:
 	* tempo_like_supply_contract
 		* tempo_like_calendars
 
-### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/RTE-Equilibrage-Balancing_energy.pdf)
+### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Condition_design.pdf)
 
 Pour les ressources:
 * RTE-Equilibrage
