@@ -1,4 +1,5 @@
-Le nombre de couche est calculé entre la racine est chaque items de l'attribut "values" ou "time_series"
+Le nombre de couche est calculé entre la racine est chaque items de l'attribut "values" ou "time_series".
+Il est né
 
 ### [MAIN DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Main_design.pdf)
 Pour les ressources:
@@ -46,7 +47,6 @@ Pour les ressources:
 		* water_reserves
 	* generation_forecast
 		* forecasts
-* RTE-Production:
 	* generation_installed_capacities:
 		* capacities_per_production_type
 		* capacities_per_production_unit
