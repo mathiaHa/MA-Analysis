@@ -42,6 +42,18 @@ Pour les ressources:
 		* actual_generations_per_unit
 		* generation_mix_15min_time_scale
 		* water_reserves
+	* generation_forecast
+		* forecasts
+* RTE-Production:
+	* generation_installed_capacities:
+		* capacities_per_production_type
+		* capacities_per_production_unit
+	* unavailability_additional_information
+		* generation_unavailabilities
+		* transmission_network_unavailabilities
+	* wholesale_market
+		* epex_spot_power_exchanges
+	
 ### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/RTE-Equilibrage-Balancing_energy.pdf)
 
 Pour les ressources:
@@ -64,6 +76,10 @@ Pour les ressources:
 	* certified_capacities_registry:
 		* ncc_greater_equal_100_mw
 		* ncc_less_100_mw
+* RTE-Production:
+	* generation_installed_capacities:
+		* capacities_cpc
+	
 
 
 	
