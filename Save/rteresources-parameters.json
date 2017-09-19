@@ -8,6 +8,7 @@
     {
       "name": "detailed",
       "type": "rte",
+      "privacy": "private_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "big_adjusted",
@@ -25,6 +26,7 @@
     {
       "name": "validated_points,",
       "type": "rte",
+      "privacy": "private_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "big_metering",
@@ -43,6 +45,7 @@
     {
       "name": "validated_points",
       "type": "rte",
+      "privacy": "private_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "big_physical",
@@ -61,6 +64,7 @@
     {
       "name": "reference",
       "type": "rte",
+      "privacy": "private_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "big_raw_metering",
@@ -79,6 +83,7 @@
     {
       "name": "validated_points",
       "type": "rte",
+      "privacy": "private_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "big_system",
@@ -97,6 +102,7 @@
     {
       "name": "consolidated_power_consumption",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "consolidated_consumption",
@@ -111,6 +117,7 @@
     {
       "name": "consolidated_energy_consumption",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "consolidated_consumption",
@@ -126,6 +133,7 @@
     {
       "name": "annual_forecasts",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "consumption",
@@ -140,6 +148,7 @@
     {
       "name": "short_term",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "consumption",
@@ -154,6 +163,7 @@
     {
       "name": "weekly_forecasts",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "consumption",
@@ -169,6 +179,7 @@
     {
       "name": "operators",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "demand_response",
@@ -183,6 +194,7 @@
     {
       "name": "volumes",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "demand_response",
@@ -198,14 +210,68 @@
     {
       "name": "service_points/transcodifications",
       "type": "rte",
+      "privacy": "private_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "referential_data",
-      "frequency": "30 15 * * *",
+      "frequency": "10 * * * *",
       "maxtimestep": 86400,
       "firstdate": "2012-01-01T00:00:00",
       "payload": {}
     }, // -----> pas besoin de payload, peut etre pas besoin nom plus de mise à jour
+    // Speed metering view
+    {
+      "name": "speed",
+      "type": "rte",
+      "privacy": "private_api",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "speed_metering_view",
+      "frequency": "21 * * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "market_evaluation_point_id": "code EIC en Z",
+        "resolution": "P10M"
+      }
+    }, // -----> Il est necessaire de donner "market_evaluation_point_id" et "resolution"
+    // Speed physical view
+    {
+      "name": "speed",
+      "type": "rte",
+      "privacy": "private_api",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "speed_physical_view",
+      "frequency": "22 * * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "market_evaluation_point_id": "code EIC en Z",
+        "resolution": "P10M"
+      }
+    }, // -----> Il est necessaire de donner "market_evaluation_point_id" et "resolution"
+    // Tempo like supply contract
+    {
+      "name": "tempo_like_calendars",
+      "type": "rte",
+      "privacy": "open_api",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "tempo_like_supply_contract",
+      "frequency": "43 10 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-09-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+
     //============
     // EQUILIBRAGE
     //============
@@ -214,6 +280,7 @@
     {
       "name": "accepted_offers",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_capacity",
@@ -228,6 +295,7 @@
     {
       "name": "insufficients_offers",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_capacity",
@@ -242,6 +310,7 @@
     {
       "name": "peak_daily_margins",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_capacity",
@@ -256,6 +325,7 @@
     {
       "name": "procured_reserves",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_capacity",
@@ -271,6 +341,7 @@
     {
       "name": "capacities_prices",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_energy",
@@ -285,6 +356,7 @@
     {
       "name": "tso_offers",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_energy",
@@ -299,6 +371,7 @@
     {
       "name": "imbalance_data",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_energy",
@@ -313,6 +386,7 @@
     {
       "name": "prices",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_energy",
@@ -327,6 +401,7 @@
     {
       "name": "lead_times",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_energy",
@@ -341,6 +416,7 @@
     {
       "name": "volumes_per_reasons",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_energy",
@@ -355,6 +431,7 @@
     {
       "name": "volumes_per_energy_type",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_energy",
@@ -369,6 +446,7 @@
     {
       "name": "volumes_per_entity_type",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "balancing_energy",
@@ -384,6 +462,7 @@
     {
       "name": "national_reference_load_curves",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "bre_imbalance_reconstitution",
@@ -398,6 +477,7 @@
     {
       "name": "national_profiling_imbalances",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "bre_imbalance_reconstitution",
@@ -412,6 +492,7 @@
     {
       "name": "national_alignment_coefficients",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "bre_imbalance_reconstitution",
@@ -426,6 +507,7 @@
     {
       "name": "additional_national_alignment_coefficients",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "bre_imbalance_reconstitution",
@@ -441,6 +523,7 @@
     {
       "name": "bre_temporal_reconciliations",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "temporal_reconciliations",
@@ -461,6 +544,7 @@
     {
       "name": "costs",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "congestion",
@@ -475,6 +559,7 @@
     {
       "name": "countertrading",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "congestion",
@@ -489,6 +574,7 @@
     {
       "name": "redispatching",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "congestion",
@@ -504,6 +590,7 @@
     {
       "name": "annual_monthly_auctions_specifications",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "cross_zonal_capacity",
@@ -518,6 +605,7 @@
     {
       "name": "initial_offered_capacities_d-1",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "cross_zonal_capacity",
@@ -532,6 +620,7 @@
     {
       "name": "initial_offered_capacities_id",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "cross_zonal_capacity",
@@ -546,6 +635,7 @@
     {
       "name": "results_id",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "cross_zonal_capacity",
@@ -561,6 +651,7 @@
     {
       "name": "schedule",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "exchange_schedule",
@@ -575,6 +666,7 @@
     {
       "name": "sum_rights_document",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "exchange_schedule",
@@ -590,6 +682,7 @@
     {
       "name": "forecasts",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "losses_public_transmission_system",
@@ -605,6 +698,7 @@
     {
       "name": "ntc",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "ntc",
@@ -620,6 +714,7 @@
     {
       "name": "physical_flows",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "physical_flow",
@@ -640,6 +735,7 @@
     {
       "name": "charts_parameters",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "certification_obligation_parameter",
@@ -654,6 +750,7 @@
     {
       "name": "reference_extreme_temperatures",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "certification_obligation_parameter",
@@ -669,6 +766,7 @@
     {
       "name": "charts_parameters",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "certification_obligation_parameter",
@@ -683,6 +781,7 @@
     {
       "name": "reference_extreme_temperatures",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "certification_obligation_parameter",
@@ -698,6 +797,7 @@
     {
       "name": "registry_consumption_controles_measures",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "registry_consumption_control_measure",
@@ -713,6 +813,7 @@
     {
       "name": "signals",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "registry_consumption_control_measure",
@@ -733,6 +834,7 @@
     {
       "name": "actual_generations_per_production_type",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "actual_generation",
@@ -747,6 +849,7 @@
     {
       "name": "actual_generations_per_unit",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "actual_generation",
@@ -761,6 +864,7 @@
     {
       "name": "water_reserves",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "actual_generation",
@@ -775,6 +879,7 @@
     {
       "name": "generation_mix_15min_time_scale",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "actual_generation",
@@ -790,6 +895,7 @@
     {
       "name": "forecasts",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "generation_forecast",
@@ -805,6 +911,7 @@
     {
       "name": "capacities_cpc",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "generation_installed_capacities",
@@ -819,6 +926,7 @@
     {
       "name": "capacities_per_production_type",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "generation_installed_capacities",
@@ -833,6 +941,7 @@
     {
       "name": "capacities_per_production_unit",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "generation_installed_capacities",
@@ -848,6 +957,7 @@
     {
       "name": "transmission_network_unavailabilities",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "unavailability_additional_information",
@@ -862,6 +972,7 @@
     {
       "name": "generation_unavailabilities",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "unavailability_additional_information",
@@ -877,6 +988,7 @@
     {
       "name": "epex_spot_power_exchanges",
       "type": "rte",
+      "privacy": "open_api",
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "wholesale_market",
