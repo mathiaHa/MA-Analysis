@@ -1,5 +1,9 @@
 Le nombre de couche est calculé entre la racine est chaque items de l'attribut "values" ou "time_series".
-Il est né
+
+Il est nécessaire de faire une liste d'api privée et libre, il y a deux adresse url:
+* https://digital.iservices.rte-france.com/private_api/
+* https://digital.iservices.rte-france.com/open_api/
+-> Ajouter un champ privacy avec les valeurs pulic ou private (ou un champ bool private: true/false)
 
 ### [MAIN DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Main_design.pdf)
 Pour les ressources:
