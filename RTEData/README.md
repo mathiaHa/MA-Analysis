@@ -54,9 +54,17 @@ Pour les ressources:
 	* wholesale_market
 		* epex_spot_power_exchanges
 * RTE-Consommation:
+	* demand-response:
+		* volumes
+	* id_referential:
+		* getTarnscodification
+	* speed_physical_view:
+		* speed
+	* speed_metering_view:
+		* speed
 	* tempo_like_supply_contract
 		* tempo_like_calendars
-	
+
 ### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/RTE-Equilibrage-Balancing_energy.pdf)
 
 Pour les ressources:
@@ -82,7 +90,10 @@ Pour les ressources:
 * RTE-Production:
 	* generation_installed_capacities:
 		* capacities_cpc
-	
+* RTE-Consommation:
+	* demand-response:
+		* operators
+		
 
 
 	
