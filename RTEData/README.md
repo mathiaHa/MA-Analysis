@@ -1,3 +1,5 @@
+Le nombre de couche est calculé entre la racine est chaque items de l'attribut "values" ou "time_series"
+
 ### [MAIN DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Main_design.pdf)
 Pour les ressources:
 * RTE-Equilibrage-
