@@ -54,6 +54,21 @@ Pour les ressources:
 	* wholesale_market
 		* epex_spot_power_exchanges
 * RTE-Consommation:
+	* big_metering
+		* validated_points
+	* big_physical
+		* validated_points
+	* big_raw_metering
+		* reference
+	* big_system
+		* validated_points
+	* consolidated_consumption:
+		* consolidated_energy_consumption
+		* consolidated_power_consumption
+	* consumption:
+		* annual_forecasts
+		* short_term
+		* weekly_forecasts
 	* demand-response:
 		* volumes
 	* id_referential:
