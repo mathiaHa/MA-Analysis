@@ -109,6 +109,11 @@ Pour les ressources:
 	* demand-response:
 		* operators
 		
+### [THREE LAYER DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Tree_layer_design.pdf)
+Pour les ressources:
+* RTE-Consommation:
+	* big_adjusted
+		* detailed
 
 
 	
