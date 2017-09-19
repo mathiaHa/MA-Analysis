@@ -1,0 +1,892 @@
+﻿{
+  "resources": [
+    // ============
+    // CONSOMMATION
+    // ============
+
+    // Big adjusted
+    {
+      "name": "detailed",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "big_adjusted",
+      "frequency": "10 * * * *",
+      "maxtimestep": 600,
+      "maxnbrequests": 300,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "market_evaluation_point_id": "code EIC en Z"
+      }
+    }, // -----> Il est necessaire de donner "market_evaluation_point_id"
+    // Big metering
+    {
+      "name": "validated_points,",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "big_metering",
+      "frequency": "10 * * * *",
+      "maxtimestep": 600,
+      "maxnbrequests": 300,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "market_evaluation_point_id": "code EIC en Z",
+        "resolution": "P10M"
+      }
+    }, // -----> Il est necessaire de donner "market_evaluation_point_id" et "resolution"
+    // Big physical
+    {
+      "name": "validated_points",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "big_physical",
+      "frequency": "10 * * * *",
+      "maxtimestep": 600,
+      "maxnbrequests": 300,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "market_evaluation_point_id": "code EIC en Z",
+        "resolution": "P10M"
+      }
+    }, // -----> Il est necessaire de donner "market_evaluation_point_id" et "resolution"
+    // Big raw metering
+    {
+      "name": "reference",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "big_raw_metering",
+      "frequency": "10 * * * *",
+      "maxtimestep": 600,
+      "maxnbrequests": 300,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "market_evaluation_point_id": "code EIC en Z",
+        "resolution": "P10M"
+      }
+    }, // -----> Il est necessaire de donner "market_evaluation_point_id" et "resolution"
+    // Big System
+    {
+      "name": "validated_points",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "big_system",
+      "frequency": "10 * * * *",
+      "maxtimestep": 600,
+      "maxnbrequests": 300,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "market_evaluation_point_id": "code EIC en Z",
+        "resolution": "P10M"
+      }
+    }, // -----> Il est necessaire de donner "market_evaluation_point_id" et "resolution"
+    // Consolidated consumption
+    {
+      "name": "consolidated_power_consumption",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "consolidated_consumption",
+      "frequency": "0 1 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "consolidated_energy_consumption",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "consolidated_consumption",
+      "frequency": "1 1 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Consumption
+    {
+      "name": "annual_forecasts",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "consumption",
+      "frequency": "15 15 1 1 *",
+      "maxtimestep": 13392000,
+      "firstdate": "2015-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "short_term",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "consumption",
+      "frequency": "15 * * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-12-17T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "weekly_forecasts",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "consumption",
+      "frequency": "32 13 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Demand response
+    {
+      "name": "operators",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "demand_response",
+      "frequency": "21 9 * * *",
+      "maxtimestep": 2678400,
+      "firstdate": "2015-08-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "volumes",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "demand_response",
+      "frequency": "30 15 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    }, // cas d'utilisation historique pour data en m+1
+    // Id referential
+    {
+      "name": "service_points/transcodifications",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "referential_data",
+      "frequency": "30 15 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {}
+    }, // -----> pas besoin de payload, peut etre pas besoin nom plus de mise à jour
+    //============
+    // EQUILIBRAGE
+    //============
+
+    // Balancing capacity
+    {
+      "name": "accepted_offers",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_capacity",
+      "frequency": "30 * * * *",
+      "maxtimestep": 8035200,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "insufficients_offers",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_capacity",
+      "frequency": "11 19 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "peak_daily_margins",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_capacity",
+      "frequency": "30 18 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "procured_reserves",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_capacity",
+      "frequency": "10 23 * * *",
+      "maxtimestep": 10713600,
+      "firstdate": "2014-12-17T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Balancing Energy
+    {
+      "name": "capacities_prices",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_energy",
+      "frequency": "12 19 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    }, // -----> probleme de frequence, etc
+    {
+      "name": "tso_offers",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_energy",
+      "frequency": "13 * * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "imbalance_data",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_energy",
+      "frequency": "13 * * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "prices",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_energy",
+      "frequency": "13 * * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "lead_times",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_energy",
+      "frequency": "13 * * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "volumes_per_reasons",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_energy",
+      "frequency": "13 * * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "volumes_per_energy_type",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_energy",
+      "frequency": "13 * * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "volumes_per_entity_type",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "balancing_energy",
+      "frequency": "13 * * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Bre imbalance reconstitution
+    {
+      "name": "national_reference_load_curves",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "bre_imbalance_reconstitution",
+      "frequency": "0 15 * * fri",
+      "maxtimestep": 10713600,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "national_profiling_imbalances",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "bre_imbalance_reconstitution",
+      "frequency": "0 15 * * fri",
+      "maxtimestep": 10713600,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "national_alignment_coefficients",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "bre_imbalance_reconstitution",
+      "frequency": "0 15 * * fri",
+      "maxtimestep": 10713600,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "additional_national_alignment_coefficients",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "bre_imbalance_reconstitution",
+      "frequency": "0 15 * * fri",
+      "maxtimestep": 10713600,
+      "firstdate": "2014-04-12T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Bre temporal reconciliations
+    {
+      "name": "bre_temporal_reconciliations",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "temporal_reconciliations",
+      "frequency": "0 0 13 10 *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+
+    // ==============
+    // INTERCONNEXION
+    // ==============
+
+    // Congestion
+    {
+      "name": "costs",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "congestion",
+      "frequency": "17 15 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2014-09-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "countertrading",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "congestion",
+      "frequency": "16 15 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2015-03-04T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "redispatching",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "congestion",
+      "frequency": "15 15 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2015-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Cross zonal capacity
+    {
+      "name": "annual_monthly_auctions_specifications",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "cross_zonal_capacity",
+      "frequency": "30 9 24 * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "initial_offered_capacities_d-1",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "cross_zonal_capacity",
+      "frequency": "31 10 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "initial_offered_capacities_id",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "cross_zonal_capacity",
+      "frequency": "31 20 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "results_id",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "cross_zonal_capacity",
+      "frequency": "32 20 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Exchange schedule
+    {
+      "name": "schedule",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "exchange_schedule",
+      "frequency": "42 * * * *",
+      "maxtimestep": 2678400,
+      "firstdate": "2012-06-20T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    }, // -----> several type several hour in a day: use payload !
+    {
+      "name": "sum_rights_document",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "exchange_schedule",
+      "frequency": "18 9 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Losses public transmission system
+    {
+      "name": "forecasts",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "losses_public_transmission_system",
+      "frequency": "* 8,12,17 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Ntc
+    {
+      "name": "ntc",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "ntc",
+      "frequency": "* 20 * * *",
+      "maxtimestep": 5356800,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Physical flows
+    {
+      "name": "physical_flows",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "physical_flow",
+      "frequency": "19 * * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2014-12-16T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+
+    // ==================
+    // MECANISME CAPACITE
+    // ==================
+
+    // Certification obligation parameter
+    {
+      "name": "charts_parameters",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "certification_obligation_parameter",
+      "frequency": "* * * 1 *",
+      "maxtimestep": 13392000,
+      "firstdate": "2017-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "reference_extreme_temperatures",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "certification_obligation_parameter",
+      "frequency": "* * * 1 *",
+      "maxtimestep": 13392000,
+      "firstdate": "2017-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Certified capacities parameter
+    {
+      "name": "charts_parameters",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "certification_obligation_parameter",
+      "frequency": "* * * 1 *",
+      "maxtimestep": 13392000,
+      "firstdate": "2017-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "reference_extreme_temperatures",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "certification_obligation_parameter",
+      "frequency": "* * * 1 *",
+      "maxtimestep": 13392000,
+      "firstdate": "2017-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Registry consumption control measure
+    {
+      "name": "registry_consumption_controles_measures",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "registry_consumption_control_measure",
+      "frequency": "* * 1 * *",
+      "maxtimestep": 1814400,
+      "firstdate": "2015-04-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Signal
+    {
+      "name": "signals",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "registry_consumption_control_measure",
+      "frequency": "45 9 1 * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2017-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+
+    // ==========
+    // PRODUCTION
+    // ==========
+
+    // Actual generation
+    {
+      "name": "actual_generations_per_production_type",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "actual_generation",
+      "frequency": "59 */1 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-12-15T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "actual_generations_per_unit",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "actual_generation",
+      "frequency": "58 */1 * * *",
+      "maxtimestep": 604800,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "water_reserves",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "actual_generation",
+      "frequency": "30 13 * * 3",
+      "maxtimestep": 31536000,
+      "firstdate": "2014-12-08T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "generation_mix_15min_time_scale",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "actual_generation",
+      "frequency": "31 13 * * 3",
+      "maxtimestep": 1209600,
+      "firstdate": "2017-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Generation forecast
+    {
+      "name": "forecasts",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "generation_forecast",
+      "frequency": "59 * * * *",
+      "maxtimestep": 1814400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Generation installed capacities
+    {
+      "name": "capacities_cpc",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "generation_installed_capacities",
+      "frequency": "3 1 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2015-09-05T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "capacities_per_production_type",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "generation_installed_capacities",
+      "frequency": "4 1 * * *",
+      "maxtimestep": 1296000,
+      "firstdate": "2015-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "capacities_per_production_unit",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "generation_installed_capacities",
+      "frequency": "5 1 * * *",
+      "maxtimestep": 86400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Unavailability additional information
+    {
+      "name": "transmission_network_unavailabilities",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "unavailability_additional_information",
+      "frequency": "6 1 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2014-03-18T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    {
+      "name": "generation_unavailabilities",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "unavailability_additional_information",
+      "frequency": "7 1 * * *",
+      "maxtimestep": 1814400,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    },
+    // Wholesale market
+    {
+      "name": "epex_spot_power_exchanges",
+      "type": "rte",
+      "client": "rteroland",
+      "application": "TEST_API_RTE",
+      "api": "wholesale_market",
+      "frequency": "8 1 * * *",
+      "maxtimestep": 13392000,
+      "firstdate": "2012-01-01T00:00:00",
+      "payload": {
+        "start_date": "YYYY-MMDDThh:mm:sszzzzzz",
+        "end_date": "YYYY-MMDDThh:mm:sszzzzzz"
+      }
+    }
+  ]
+}
