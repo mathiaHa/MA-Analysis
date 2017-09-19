@@ -1,0 +1,94 @@
+﻿{
+  "costs": [
+    {
+      "start_date": "2015-10-01T00:00:00+02:00",
+      "end_date": "2015-11-01T00:00:00+01:00",
+      "type": "REDISPATCHING",
+      "price": 0
+    },
+    {
+      "start_date": "2015-10-01T00:00:00+02:00",
+      "end_date": "2015-11-01T00:00:00+01:00",
+      "type": "COUNTERTRADING",
+      "price": 51000
+    },
+    {
+      "start_date": "2015-10-01T00:00:00+02:00",
+      "end_date": "2015-11-01T00:00:00+01:00",
+      "type": "CONGESTION",
+      "price": 51000
+    },
+    {
+      "start_date": "2015-09-01T00:00:00+02:00",
+      "end_date": "2015-10-01T00:00:00+02:00",
+      "type": "REDISPATCHING",
+      "price": 0
+    },
+    {
+      "start_date": "2015-09-01T00:00:00+02:00",
+      "end_date": "2015-10-01T00:00:00+02:00",
+      "type": "COUNTERTRADING",
+      "price": 0
+    },
+    {
+      "start_date": "2015-09-01T00:00:00+02:00",
+      "end_date": "2015-10-01T00:00:00+02:00",
+      "type": "CONGESTION",
+      "price": 0
+    },
+    {
+      "start_date": "2015-06-01T00:00:00+02:00",
+      "end_date": "2015-07-01T00:00:00+02:00",
+      "type": "REDISPATCHING",
+      "price": 0
+    },
+    {
+      "start_date": "2015-06-01T00:00:00+02:00",
+      "end_date": "2015-07-01T00:00:00+02:00",
+      "type": "COUNTERTRADING",
+      "price": 0
+    },
+    {
+      "start_date": "2015-06-01T00:00:00+02:00",
+      "end_date": "2015-07-01T00:00:00+02:00",
+      "type": "CONGESTION",
+      "price": 0
+    },
+    {
+      "start_date": "2015-04-01T00:00:00+02:00",
+      "end_date": "2015-05-01T00:00:00+02:00",
+      "type": "REDISPATCHING",
+      "price": 0
+    },
+    {
+      "start_date": "2015-04-01T00:00:00+02:00",
+      "end_date": "2015-05-01T00:00:00+02:00",
+      "type": "COUNTERTRADING",
+      "price": 0
+    },
+    {
+      "start_date": "2015-04-01T00:00:00+02:00",
+      "end_date": "2015-05-01T00:00:00+02:00",
+      "type": "CONGESTION",
+      "price": 0
+    },
+    {
+      "start_date": "2015-01-01T00:00:00+01:00",
+      "end_date": "2015-02-01T00:00:00+01:00",
+      "type": "REDISPATCHING",
+      "price": 7890
+    },
+    {
+      "start_date": "2015-01-01T00:00:00+01:00",
+      "end_date": "2015-02-01T00:00:00+01:00",
+      "type": "COUNTERTRADING",
+      "price": 4567
+    },
+    {
+      "start_date": "2015-01-01T00:00:00+01:00",
+      "end_date": "2015-02-01T00:00:00+01:00",
+      "type": "CONGESTION",
+      "price": 1234
+    }
+  ]
+}

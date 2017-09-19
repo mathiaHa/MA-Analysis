@@ -1,0 +1,110 @@
+﻿{"speed": [
+      {
+      "start_date": "2017-03-20T09:00:00Z",
+      "end_date": "2017-03-20T09:30:00Z",
+      "market_evaluation_point_id": "17Z2016091600611",
+      "product": "reactive_power_in",
+      "measure_unit_name": "kVAR",
+      "values":       [
+                  {
+            "quantity": 0,
+            "status": "A04",
+            "date": "2017-03-20T09:00:00Z",
+            "update_date": "2017-03-20T10:19:06Z"
+         },
+                  {
+            "quantity": 0,
+            "status": "A04",
+            "date": "2017-03-20T09:10:00Z",
+            "update_date": "2017-03-20T10:30:28Z"
+         },
+                  {
+            "quantity": 0,
+            "status": "A04",
+            "date": "2017-03-20T09:20:00Z",
+            "update_date": "2017-03-20T10:39:05Z"
+         }
+      ]
+   },
+      {
+      "start_date": "2017-03-20T09:00:00Z",
+      "end_date": "2017-03-20T09:30:00Z",
+      "market_evaluation_point_id": "17Z2016091600611",
+      "product": "active_power_out",
+      "measure_unit_name": "kW",
+      "values":       [
+                  {
+            "quantity": 23629,
+            "status": "A04",
+            "date": "2017-03-20T09:00:00Z",
+            "update_date": "2017-03-20T10:19:06Z"
+         },
+                  {
+            "quantity": 23629,
+            "status": "A04",
+            "date": "2017-03-20T09:10:00Z",
+            "update_date": "2017-03-20T10:30:28Z"
+         },
+        {
+          "quantity": 23629,
+          "status": "A04",
+          "date": "2017-03-20T09:20:00Z",
+          "update_date": "2017-03-20T10:39:05Z"
+        }
+      ]
+   },
+      {
+      "start_date": "2017-03-20T09:00:00Z",
+      "end_date": "2017-03-20T09:30:00Z",
+      "market_evaluation_point_id": "17Z2016091600611",
+      "product": "active_power_in",
+      "measure_unit_name": "kW",
+      "values":       [
+                  {
+            "quantity": 0,
+            "status": "A04",
+            "date": "2017-03-20T09:00:00Z",
+            "update_date": "2017-03-20T10:19:06Z"
+         },
+                  {
+            "quantity": 0,
+            "status": "A04",
+            "date": "2017-03-20T09:10:00Z",
+            "update_date": "2017-03-20T10:30:28Z"
+         },
+                  {
+            "quantity": 0,
+            "status": "A04",
+            "date": "2017-03-20T09:20:00Z",
+            "update_date": "2017-03-20T10:39:05Z"
+         }
+      ]
+   },
+      {
+      "start_date": "2017-03-20T09:00:00Z",
+      "end_date": "2017-03-20T09:30:00Z",
+      "market_evaluation_point_id": "17Z2016091600611",
+      "product": "reactive_power_out",
+      "measure_unit_name": "kVAR",
+      "values":       [
+                  {
+            "quantity": 4880,
+            "status": "A04",
+            "date": "2017-03-20T09:00:00Z",
+            "update_date": "2017-03-20T10:19:06Z"
+         },
+                  {
+            "quantity": 4880,
+            "status": "A04",
+            "date": "2017-03-20T09:10:00Z",
+            "update_date": "2017-03-20T10:30:28Z"
+         },
+                  {
+            "quantity": 4880,
+            "status": "A04",
+            "date": "2017-03-20T09:20:00Z",
+            "update_date": "2017-03-20T10:39:05Z"
+         }
+      ]
+   }
+]}

@@ -1,0 +1,763 @@
+﻿{
+  "ncc_greater_equal_100_mw": [
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-06-01T00:00:00+02:00",
+      "edc": {
+        "production_type": "GAS_COAL_HARD_COAL",
+        "code": "PTU000006",
+        "name": "3CB",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-05-25T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 380,
+        "forecast_ncc": 380
+      },
+      "rpc": {
+        "rpc_eic_code": "12XATEL-HANDEL-K",
+        "rpc_name": "ALPIQ Ltd"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "FOSSIL_OIL",
+        "code": "PTG000040",
+        "name": "ARRIGHI",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 237.1,
+        "forecast_ncc": 237.1
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000018",
+        "name": "BELLEVILLE",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2541.7,
+        "forecast_ncc": 2541.7
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000029",
+        "name": "BLAYAIS",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 3487.9,
+        "forecast_ncc": 3487.9
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "GAS_COAL_HARD_COAL",
+        "code": "PTU000044",
+        "name": "BLENOD",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 402.8,
+        "forecast_ncc": 402.8
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "FOSSIL_OIL",
+        "code": "PTG000039",
+        "name": "BRENNILIS",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 288.7,
+        "forecast_ncc": 288.7
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000025",
+        "name": "BUGEY",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 3414.6,
+        "forecast_ncc": 3414.6
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000021",
+        "name": "CATTENOM",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 4555.5,
+        "forecast_ncc": 4555.5
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000027",
+        "name": "CHINON",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 3247.4,
+        "forecast_ncc": 3247.4
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000014",
+        "name": "CHOOZ",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2645.8,
+        "forecast_ncc": 2645.8
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000016",
+        "name": "CIVAUX",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2906.2,
+        "forecast_ncc": 2906.2
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "VARIOUS",
+        "code": "PTG000038",
+        "name": "CORDEMAIS",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2295.7,
+        "forecast_ncc": 2295.7
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000032",
+        "name": "CRUAS",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 3567.3,
+        "forecast_ncc": 3567.3
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000030",
+        "name": "DAMPIERRE",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 3462.7,
+        "forecast_ncc": 3462.7
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "FOSSIL_OIL",
+        "code": "PTU000041",
+        "name": "DIRINON",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 160.5,
+        "forecast_ncc": 160.5
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000031",
+        "name": "FESSENHEIM",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 1716.4,
+        "forecast_ncc": 1716.4
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000022",
+        "name": "FLAMANVILLE 1-2",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 1704.9,
+        "forecast_ncc": 1704.9
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "GAS_COAL_HARD_COAL",
+        "code": "PTU000035",
+        "name": "GENNEVILLIERS",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 191.6,
+        "forecast_ncc": 191.6
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000017",
+        "name": "GOLFECH",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2555.1,
+        "forecast_ncc": 2555.1
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000023",
+        "name": "GRAVELINES",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 5290.1,
+        "forecast_ncc": 5290.1
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "GAS_COAL_HARD_COAL",
+        "code": "PTU000042",
+        "name": "HAVRE",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 530.3,
+        "forecast_ncc": 530.3
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "GAS_COAL_HARD_COAL",
+        "code": "PTG000037",
+        "name": "MARTIGUES",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 873.3,
+        "forecast_ncc": 873.3
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "FOSSIL_OIL",
+        "code": "PTG000034",
+        "name": "MONTEREAU",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 342.6,
+        "forecast_ncc": 342.6
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000020",
+        "name": "NOGENT SUR SEINE",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2452.9,
+        "forecast_ncc": 2452.9
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000026",
+        "name": "PALUEL",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 4313.2,
+        "forecast_ncc": 4313.2
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000019",
+        "name": "PENLY",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2594.2,
+        "forecast_ncc": 2594.2
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "FOSSIL_OIL",
+        "code": "PTG000033",
+        "name": "PORCHEVILLE",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2094,
+        "forecast_ncc": 2094
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-04-30T00:00:00+02:00",
+      "edc": {
+        "production_type": "GAS_COAL_HARD_COAL",
+        "code": "PTU000002",
+        "name": "PSSPower",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-04-29T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 410,
+        "forecast_ncc": 410
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100P0387K",
+        "rpc_name": "Pont Sur Sambre Power"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000015",
+        "name": "SAINT ALBAN",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 2603.9,
+        "forecast_ncc": 2603.9
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000028",
+        "name": "SAINT LAURENT DES EAUX",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 1784.7,
+        "forecast_ncc": 1784.7
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-17T00:00:00+02:00",
+      "edc": {
+        "production_type": "NUCLEAR",
+        "code": "PTG000024",
+        "name": "TRICASTIN",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 3311.4,
+        "forecast_ncc": 3311.4
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-04-30T00:00:00+02:00",
+      "edc": {
+        "production_type": "GAS_COAL_HARD_COAL",
+        "code": "PTU000003",
+        "name": "ToulPower",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-04-30T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 410,
+        "forecast_ncc": 410
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100P0387K",
+        "rpc_name": "Pont Sur Sambre Power"
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-16T00:00:00+02:00",
+      "edc": {
+        "production_type": "FOSSIL_OIL",
+        "code": "PTG000043",
+        "name": "VAIRES SUR MARNE",
+        "network_connection": "TSO",
+        "type": "PRODUCTION",
+        "status": "OPERATING",
+        "certification_date": "2015-07-16T00:00:00+02:00"
+      },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 511.4,
+        "forecast_ncc": 511.4
+      },
+      "rpc": {
+        "rpc_eic_code": "17X100A100R00182",
+        "rpc_name": "EDF-DOAAT"
+      }
+    }
+  ]
+}

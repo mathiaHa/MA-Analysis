@@ -1,0 +1,58 @@
+﻿{
+  "speed": [
+    {
+      "start_date": "2017-02-24T07:00:00Z",
+      "end_date": "2017-02-24T07:30:00Z",
+      "market_evaluation_point_id": "17Z2016091600611",
+      "product": "active_power_out",
+      "measure_unit_name": "kW",
+      "values": [
+        {
+          "quantity": 597,
+          "status": "A05",
+          "date": "2017-02-24T07:00:00Z",
+          "update_date": "2017-02-24T09:45:26Z"
+        },
+        {
+          "quantity": 597,
+          "status": "A05",
+          "date": "2017-02-24T07:10:00Z",
+          "update_date": "2017-02-24T09:45:41Z"
+        },
+        {
+          "quantity": 597,
+          "status": "A05",
+          "date": "2017-02-24T07:20:00Z",
+          "update_date": "2017-02-24T09:45:30Z"
+        }
+      ]
+    },
+    {
+      "start_date": "2017-02-24T07:00:00Z",
+      "end_date": "2017-02-24T07:30:00Z",
+      "market_evaluation_point_id": "17Z2016091600611",
+      "product": "active_power_in",
+      "measure_unit_name": "kW",
+      "values": [
+        {
+          "quantity": 0,
+          "status": "A05",
+          "date": "2017-02-24T07:00:00Z",
+          "update_date": "2017-02-24T09:45:22Z"
+        },
+        {
+          "quantity": 0,
+          "status": "A05",
+          "date": "2017-02-24T07:10:00Z",
+          "update_date": "2017-02-24T09:45:35Z"
+        },
+        {
+          "quantity": 0,
+          "status": "A05",
+          "date": "2017-02-24T07:20:00Z",
+          "update_date": "2017-02-24T09:45:21Z"
+        }
+      ]
+    }
+  ]
+}

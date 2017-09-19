@@ -1,0 +1,46 @@
+﻿{
+  "redispatching": [
+    {
+      "version": 1,
+      "start_date": "2014-12-22T22:00:00+01:00",
+      "end_date": "2014-12-23T00:00:00+01:00",
+      "type": "GENERATION",
+      "direction": "UPWARD",
+      "transmission_asset": { "eic_code": "17T-FR-00000046X" },
+      "reason": "LOAD_FLOW_OVERLOAD",
+      "cancelled": false,
+      "values": [
+        {
+          "start_date": "2014-12-22T22:00:00+01:00",
+          "end_date": "2014-12-22T22:00:00+01:00",
+          "sender_country_eic_code": "10YIT-GRTN-----B",
+          "sender_country_name": "Italy",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1200
+        }
+      ]
+    },
+    {
+      "version": 1,
+      "start_date": "2014-12-22T22:00:00+01:00",
+      "end_date": "2014-12-23T00:00:00+01:00",
+      "type": "GENERATION",
+      "direction": "UPWARD",
+      "transmission_asset": { "eic_code": "17T-FR-00000045X" },
+      "reason": "LOAD_FLOW_OVERLOAD",
+      "cancelled": false,
+      "values": [
+        {
+          "start_date": "2014-12-22T22:00:00+01:00",
+          "end_date": "2014-12-01T19:00:00+01:00",
+          "sender_country_eic_code": "10YIT-GRTN-----B",
+          "sender_country_name": "Italy",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 2200
+        }
+      ]
+    }
+  ]
+}

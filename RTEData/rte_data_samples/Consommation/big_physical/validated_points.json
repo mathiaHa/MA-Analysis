@@ -1,0 +1,898 @@
+﻿{
+  "validated_points": [
+    {
+      "start_date": "2017-02-19T00:00:00Z",
+      "end_date": "2017-02-20T00:00:00Z",
+      "market_evaluation_point_id": "17Z2016091600626",
+      "product": "reactive_power_in",
+      "measure_unit_name": "KVAR"
+    },
+    {
+      "start_date": "2017-02-19T00:00:00Z",
+      "end_date": "2017-02-20T00:00:00Z",
+      "market_evaluation_point_id": "17Z2016091600626",
+      "product": "active_power_out",
+      "measure_unit_name": "KW",
+      "values": [
+        {
+          "quantity": 12308,
+          "status": "Z01",
+          "date": "2017-02-19T00:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 12353,
+          "status": "Z01",
+          "date": "2017-02-19T00:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 12146,
+          "status": "Z01",
+          "date": "2017-02-19T00:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 12393,
+          "status": "Z01",
+          "date": "2017-02-19T00:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 12327,
+          "status": "Z01",
+          "date": "2017-02-19T00:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 12106,
+          "status": "Z01",
+          "date": "2017-02-19T00:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 12211,
+          "status": "Z01",
+          "date": "2017-02-19T01:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 14517,
+          "status": "Z01",
+          "date": "2017-02-19T01:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15474,
+          "status": "Z01",
+          "date": "2017-02-19T01:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15340,
+          "status": "Z01",
+          "date": "2017-02-19T01:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15212,
+          "status": "Z01",
+          "date": "2017-02-19T01:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15147,
+          "status": "Z01",
+          "date": "2017-02-19T01:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15122,
+          "status": "Z01",
+          "date": "2017-02-19T02:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15208,
+          "status": "Z01",
+          "date": "2017-02-19T02:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15126,
+          "status": "Z01",
+          "date": "2017-02-19T02:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15173,
+          "status": "Z01",
+          "date": "2017-02-19T02:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 14960,
+          "status": "Z01",
+          "date": "2017-02-19T02:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 14993,
+          "status": "Z01",
+          "date": "2017-02-19T02:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15033,
+          "status": "Z01",
+          "date": "2017-02-19T03:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15045,
+          "status": "Z01",
+          "date": "2017-02-19T03:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15187,
+          "status": "Z01",
+          "date": "2017-02-19T03:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15235,
+          "status": "Z01",
+          "date": "2017-02-19T03:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15318,
+          "status": "Z01",
+          "date": "2017-02-19T03:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15429,
+          "status": "Z01",
+          "date": "2017-02-19T03:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15317,
+          "status": "Z01",
+          "date": "2017-02-19T04:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15332,
+          "status": "Z01",
+          "date": "2017-02-19T04:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15306,
+          "status": "Z01",
+          "date": "2017-02-19T04:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15367,
+          "status": "Z01",
+          "date": "2017-02-19T04:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15412,
+          "status": "Z01",
+          "date": "2017-02-19T04:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15397,
+          "status": "Z01",
+          "date": "2017-02-19T04:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15409,
+          "status": "Z01",
+          "date": "2017-02-19T05:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15341,
+          "status": "Z01",
+          "date": "2017-02-19T05:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15381,
+          "status": "Z01",
+          "date": "2017-02-19T05:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15333,
+          "status": "Z01",
+          "date": "2017-02-19T05:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15244,
+          "status": "Z01",
+          "date": "2017-02-19T05:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15332,
+          "status": "Z01",
+          "date": "2017-02-19T05:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15224,
+          "status": "Z01",
+          "date": "2017-02-19T06:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15160,
+          "status": "Z01",
+          "date": "2017-02-19T06:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15244,
+          "status": "Z01",
+          "date": "2017-02-19T06:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15307,
+          "status": "Z01",
+          "date": "2017-02-19T06:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15348,
+          "status": "Z01",
+          "date": "2017-02-19T06:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15256,
+          "status": "Z01",
+          "date": "2017-02-19T06:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15282,
+          "status": "Z01",
+          "date": "2017-02-19T07:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15252,
+          "status": "Z01",
+          "date": "2017-02-19T07:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15264,
+          "status": "Z01",
+          "date": "2017-02-19T07:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15389,
+          "status": "Z01",
+          "date": "2017-02-19T07:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15216,
+          "status": "Z01",
+          "date": "2017-02-19T07:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15222,
+          "status": "Z01",
+          "date": "2017-02-19T07:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15289,
+          "status": "Z01",
+          "date": "2017-02-19T08:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15282,
+          "status": "Z01",
+          "date": "2017-02-19T08:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15228,
+          "status": "Z01",
+          "date": "2017-02-19T08:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15301,
+          "status": "Z01",
+          "date": "2017-02-19T08:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15259,
+          "status": "Z01",
+          "date": "2017-02-19T08:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15368,
+          "status": "Z01",
+          "date": "2017-02-19T08:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15346,
+          "status": "Z01",
+          "date": "2017-02-19T09:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15290,
+          "status": "Z01",
+          "date": "2017-02-19T09:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15420,
+          "status": "Z01",
+          "date": "2017-02-19T09:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15267,
+          "status": "Z01",
+          "date": "2017-02-19T09:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15274,
+          "status": "Z01",
+          "date": "2017-02-19T09:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15355,
+          "status": "Z01",
+          "date": "2017-02-19T09:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15456,
+          "status": "Z01",
+          "date": "2017-02-19T10:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15496,
+          "status": "Z01",
+          "date": "2017-02-19T10:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15378,
+          "status": "Z01",
+          "date": "2017-02-19T10:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15300,
+          "status": "Z01",
+          "date": "2017-02-19T10:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15276,
+          "status": "Z01",
+          "date": "2017-02-19T10:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15225,
+          "status": "Z01",
+          "date": "2017-02-19T10:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15282,
+          "status": "Z01",
+          "date": "2017-02-19T11:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15311,
+          "status": "Z01",
+          "date": "2017-02-19T11:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15508,
+          "status": "Z01",
+          "date": "2017-02-19T11:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15418,
+          "status": "Z01",
+          "date": "2017-02-19T11:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15333,
+          "status": "Z01",
+          "date": "2017-02-19T11:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15411,
+          "status": "Z01",
+          "date": "2017-02-19T11:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15389,
+          "status": "Z01",
+          "date": "2017-02-19T12:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15395,
+          "status": "Z01",
+          "date": "2017-02-19T12:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15459,
+          "status": "Z01",
+          "date": "2017-02-19T12:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15279,
+          "status": "Z01",
+          "date": "2017-02-19T12:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15430,
+          "status": "Z01",
+          "date": "2017-02-19T12:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15405,
+          "status": "Z01",
+          "date": "2017-02-19T12:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15327,
+          "status": "Z01",
+          "date": "2017-02-19T13:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15354,
+          "status": "Z01",
+          "date": "2017-02-19T13:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15447,
+          "status": "Z01",
+          "date": "2017-02-19T13:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15402,
+          "status": "Z01",
+          "date": "2017-02-19T13:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15415,
+          "status": "Z01",
+          "date": "2017-02-19T13:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15316,
+          "status": "Z01",
+          "date": "2017-02-19T13:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15347,
+          "status": "Z01",
+          "date": "2017-02-19T14:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15548,
+          "status": "Z01",
+          "date": "2017-02-19T14:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15669,
+          "status": "Z01",
+          "date": "2017-02-19T14:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15793,
+          "status": "Z01",
+          "date": "2017-02-19T14:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15916,
+          "status": "Z01",
+          "date": "2017-02-19T14:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15763,
+          "status": "Z01",
+          "date": "2017-02-19T14:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15841,
+          "status": "Z01",
+          "date": "2017-02-19T15:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15860,
+          "status": "Z01",
+          "date": "2017-02-19T15:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15882,
+          "status": "Z01",
+          "date": "2017-02-19T15:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15753,
+          "status": "Z01",
+          "date": "2017-02-19T15:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15755,
+          "status": "Z01",
+          "date": "2017-02-19T15:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15814,
+          "status": "Z01",
+          "date": "2017-02-19T15:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15741,
+          "status": "Z01",
+          "date": "2017-02-19T16:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15801,
+          "status": "Z01",
+          "date": "2017-02-19T16:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15685,
+          "status": "Z01",
+          "date": "2017-02-19T16:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15644,
+          "status": "Z01",
+          "date": "2017-02-19T16:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15630,
+          "status": "Z01",
+          "date": "2017-02-19T16:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15637,
+          "status": "Z01",
+          "date": "2017-02-19T16:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15748,
+          "status": "Z01",
+          "date": "2017-02-19T17:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15760,
+          "status": "Z01",
+          "date": "2017-02-19T17:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15749,
+          "status": "Z01",
+          "date": "2017-02-19T17:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15825,
+          "status": "Z01",
+          "date": "2017-02-19T17:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15948,
+          "status": "Z01",
+          "date": "2017-02-19T17:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15942,
+          "status": "Z01",
+          "date": "2017-02-19T17:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15910,
+          "status": "Z01",
+          "date": "2017-02-19T18:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16091,
+          "status": "Z01",
+          "date": "2017-02-19T18:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15948,
+          "status": "Z01",
+          "date": "2017-02-19T18:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16010,
+          "status": "Z01",
+          "date": "2017-02-19T18:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16020,
+          "status": "Z01",
+          "date": "2017-02-19T18:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16060,
+          "status": "Z01",
+          "date": "2017-02-19T18:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16069,
+          "status": "Z01",
+          "date": "2017-02-19T19:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15979,
+          "status": "Z01",
+          "date": "2017-02-19T19:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16022,
+          "status": "Z01",
+          "date": "2017-02-19T19:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16056,
+          "status": "Z01",
+          "date": "2017-02-19T19:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15974,
+          "status": "Z01",
+          "date": "2017-02-19T19:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16024,
+          "status": "Z01",
+          "date": "2017-02-19T19:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15912,
+          "status": "Z01",
+          "date": "2017-02-19T20:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15910,
+          "status": "Z01",
+          "date": "2017-02-19T20:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15918,
+          "status": "Z01",
+          "date": "2017-02-19T20:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15920,
+          "status": "Z01",
+          "date": "2017-02-19T20:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 16059,
+          "status": "Z01",
+          "date": "2017-02-19T20:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15905,
+          "status": "Z01",
+          "date": "2017-02-19T20:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15926,
+          "status": "Z01",
+          "date": "2017-02-19T21:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15986,
+          "status": "Z01",
+          "date": "2017-02-19T21:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15937,
+          "status": "Z01",
+          "date": "2017-02-19T21:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15847,
+          "status": "Z01",
+          "date": "2017-02-19T21:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15883,
+          "status": "Z01",
+          "date": "2017-02-19T21:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15726,
+          "status": "Z01",
+          "date": "2017-02-19T21:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15666,
+          "status": "Z01",
+          "date": "2017-02-19T22:00:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15771,
+          "status": "Z01",
+          "date": "2017-02-19T22:10:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15698,
+          "status": "Z01",
+          "date": "2017-02-19T22:20:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15735,
+          "status": "Z01",
+          "date": "2017-02-19T22:30:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15775,
+          "status": "Z01",
+          "date": "2017-02-19T22:40:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15926,
+          "status": "Z01",
+          "date": "2017-02-19T22:50:00Z",
+          "update_date": "2017-02-26T16:20:40Z"
+        },
+        {
+          "quantity": 15926,
+          "status": "Z01",
+          "date": "2017-02-19T23:00:00Z",
+          "update_date": "2017-02-26T16:20:38Z"
+        },
+        {
+          "quantity": 15963,
+          "status": "Z01",
+          "date": "2017-02-19T23:10:00Z",
+          "update_date": "2017-02-26T16:20:38Z"
+        },
+        {
+          "quantity": 15874,
+          "status": "Z01",
+          "date": "2017-02-19T23:20:00Z",
+          "update_date": "2017-02-26T16:20:38Z"
+        },
+        {
+          "quantity": 15857,
+          "status": "Z01",
+          "date": "2017-02-19T23:30:00Z",
+          "update_date": "2017-02-26T16:20:38Z"
+        },
+        {
+          "quantity": 15857,
+          "status": "Z01",
+          "date": "2017-02-19T23:40:00Z",
+          "update_date": "2017-02-26T16:20:38Z"
+        },
+        {
+          "quantity": 15844,
+          "status": "Z01",
+          "date": "2017-02-19T23:50:00Z",
+          "update_date": "2017-02-26T16:20:38Z"
+        }
+      ]
+    },
+    {
+      "start_date": "2017-02-19T00:00:00Z",
+      "end_date": "2017-02-20T00:00:00Z",
+      "market_evaluation_point_id": "17Z2016091600626",
+      "product": "active_power_in",
+      "measure_unit_name": "KW"
+    },
+    {
+      "start_date": "2017-02-19T00:00:00Z",
+      "end_date": "2017-02-20T00:00:00Z",
+      "market_evaluation_point_id": "17Z2016091600626",
+      "product": "reactive_power_out",
+      "measure_unit_name": "KVAR"
+    }
+  ]
+}

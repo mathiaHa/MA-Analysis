@@ -1,0 +1,21 @@
+﻿{
+  "annual_forecasts": [
+    {
+      "start_date": "2020-01-01T00:00:00+01:00",
+      "end_date": "2021-01-01T00:00:00+01:00",
+      "values": [
+        {
+          "start_date": "2019-12-30T00:00:00+01:00",
+          "end_date": "2020-01-06T00:00:00+01:00",
+          "average_load_saturday_to_friday": -1,
+          "average_load_monday_to_sunday": -1,
+          "weekly_minimum": 53095,
+          "weekly_maximum": 75506,
+          "average_load_updated_date": "2015-10-21",
+          "margin_updated_date": "2015-11-30",
+          "forecast_margin": 405
+        }
+      ]
+    }
+  ]
+}

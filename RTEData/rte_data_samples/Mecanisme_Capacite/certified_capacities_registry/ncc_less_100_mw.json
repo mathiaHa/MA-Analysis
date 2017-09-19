@@ -1,0 +1,114 @@
+﻿{
+  "ncc_less_100_mw": [
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2016-02-22T00:00:00+01:00",
+      "edc": { "production_type": "OTHER" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 811.4
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-10-09T00:00:00+02:00",
+      "edc": { "production_type": "BIOMASS" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 30.4
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-11-30T00:00:00+01:00",
+      "edc": { "production_type": "WASTES" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 15
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2016-02-04T00:00:00+01:00",
+      "edc": { "production_type": "WIND_ONSHORE" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 36.7
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2016-02-04T00:00:00+01:00",
+      "edc": { "production_type": "OTHER" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 3032.7
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-11-30T00:00:00+01:00",
+      "edc": { "production_type": "GAS_COAL_HARD_COAL" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 860.5
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-08-17T00:00:00+02:00",
+      "edc": { "production_type": "HYDRO_RESERVOIR" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 1316.3
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-11-27T00:00:00+01:00",
+      "edc": { "production_type": "VARIOUS" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 772.6
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-07-28T00:00:00+02:00",
+      "edc": { "production_type": "HYDRO_PUMPED_STORAGE" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 0
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2016-01-05T00:00:00+01:00",
+      "edc": { "production_type": "FOSSIL_OIL" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 18.8
+      }
+    },
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2016-02-10T00:00:00+01:00",
+      "edc": { "production_type": "SOLAR" },
+      "ncc": {
+        "updated_ncc": 0,
+        "initial_ncc": 4.6
+      }
+    }
+  ]
+}

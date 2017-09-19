@@ -1,0 +1,757 @@
+﻿{
+  "annual_monthly_auctions_specifications": [
+    {
+      "identifier": "FR-DE-M-BASE-------160401-01",
+      "opening_date": "2016-03-18T14:30:00+01:00",
+      "closure_date": "2016-03-22T14:30:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-18T14:20:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Germany",
+      "receiver_country_eic_code": "10YCB-GERMANY--8",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 470,
+          "annual_capacity_resale": 120
+        }
+      ]
+    },
+    {
+      "identifier": "DE-FR-M-BASE-------160401-01",
+      "opening_date": "2016-03-18T14:30:00+01:00",
+      "closure_date": "2016-03-22T14:30:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-18T14:20:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "Germany",
+      "sender_country_eic_code": "10YCB-GERMANY--8",
+      "receiver_country_name": "France",
+      "receiver_country_eic_code": "10YFR-RTE------C",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 415,
+          "annual_capacity_resale": 15
+        }
+      ]
+    },
+    {
+      "identifier": "FR-BE-M-BASE-------160401-01",
+      "opening_date": "2016-03-18T14:00:00+01:00",
+      "closure_date": "2016-03-22T14:00:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-18T13:50:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Belgium",
+      "receiver_country_eic_code": "10YBE----------2",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 500,
+          "annual_capacity_resale": 300
+        }
+      ]
+    },
+    {
+      "identifier": "BE-FR-M-BASE-------160401-01",
+      "opening_date": "2016-03-18T14:00:00+01:00",
+      "closure_date": "2016-03-22T14:00:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-18T13:50:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "Belgium",
+      "sender_country_eic_code": "10YBE----------2",
+      "receiver_country_name": "France",
+      "receiver_country_eic_code": "10YFR-RTE------C",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 218,
+          "annual_capacity_resale": 18
+        }
+      ]
+    },
+    {
+      "identifier": "FR-IT-M-BASE-------160401-01",
+      "opening_date": "2016-03-14T15:30:00+01:00",
+      "closure_date": "2016-03-16T15:30:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-14T15:20:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Italy",
+      "receiver_country_eic_code": "10YIT-GRTN-----B",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-04-02T00:00:00+02:00",
+          "value": 1555
+        },
+        {
+          "start_date": "2016-04-02T00:00:00+02:00",
+          "end_date": "2016-04-05T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-04-05T00:00:00+02:00",
+          "end_date": "2016-04-09T00:00:00+02:00",
+          "value": 1555
+        },
+        {
+          "start_date": "2016-04-09T00:00:00+02:00",
+          "end_date": "2016-04-12T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-04-12T00:00:00+02:00",
+          "end_date": "2016-04-16T00:00:00+02:00",
+          "value": 1555
+        },
+        {
+          "start_date": "2016-04-16T00:00:00+02:00",
+          "end_date": "2016-04-19T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-04-19T00:00:00+02:00",
+          "end_date": "2016-04-23T00:00:00+02:00",
+          "value": 1555
+        },
+        {
+          "start_date": "2016-04-23T00:00:00+02:00",
+          "end_date": "2016-04-27T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-04-27T00:00:00+02:00",
+          "end_date": "2016-04-30T00:00:00+02:00",
+          "value": 1555
+        },
+        {
+          "start_date": "2016-04-30T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "identifier": "IT-FR-M-BASE-------160401-01",
+      "opening_date": "2016-03-14T15:30:00+01:00",
+      "closure_date": "2016-03-16T15:30:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-14T15:30:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "Italy",
+      "sender_country_eic_code": "10YIT-GRTN-----B",
+      "receiver_country_name": "France",
+      "receiver_country_eic_code": "10YFR-RTE------C",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 335,
+          "annual_capacity_resale": 40
+        }
+      ]
+    },
+    {
+      "identifier": "FR-ES-M-BASE-------160401-01",
+      "opening_date": "2016-03-21T15:00:00+01:00",
+      "closure_date": "2016-03-23T15:00:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-21T14:50:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Spain",
+      "receiver_country_eic_code": "10YES-REE------0",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 870,
+          "annual_capacity_resale": 100
+        }
+      ]
+    },
+    {
+      "identifier": "ES-FR-M-BASE-------160401-01",
+      "opening_date": "2016-03-21T15:00:00+01:00",
+      "closure_date": "2016-03-23T15:00:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-21T14:50:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "Spain",
+      "sender_country_eic_code": "10YES-REE------0",
+      "receiver_country_name": "France",
+      "receiver_country_eic_code": "10YFR-RTE------C",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 590,
+          "annual_capacity_resale": 100
+        }
+      ]
+    },
+    {
+      "identifier": "FR-CH-M-BASE-------160401-01",
+      "opening_date": "2016-03-22T14:00:00+01:00",
+      "closure_date": "2016-03-24T14:00:00+01:00",
+      "start_date": "2016-04-01T00:00:00+02:00",
+      "end_date": "2016-05-01T00:00:00+02:00",
+      "updated_date": "2016-03-22T13:50:00+01:00",
+      "type": "MONTHLY",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Switzerland",
+      "receiver_country_eic_code": "10YCH-SWISSGRIDZ",
+      "values": [
+        {
+          "start_date": "2016-04-01T00:00:00+02:00",
+          "end_date": "2016-05-01T00:00:00+02:00",
+          "value": 20,
+          "annual_capacity_resale": 20
+        }
+      ]
+    },
+    {
+      "identifier": "FR-DE-Y-BASE-------160101-01",
+      "opening_date": "2015-12-02T15:00:00+01:00",
+      "closure_date": "2015-12-09T15:00:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-02T11:00:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Germany",
+      "receiver_country_eic_code": "10YCB-GERMANY--8",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "identifier": "DE-FR-Y-BASE-------160101-01",
+      "opening_date": "2015-12-02T15:00:00+01:00",
+      "closure_date": "2015-12-09T15:00:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-02T11:00:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "Germany",
+      "sender_country_eic_code": "10YCB-GERMANY--8",
+      "receiver_country_name": "France",
+      "receiver_country_eic_code": "10YFR-RTE------C",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 600
+        }
+      ]
+    },
+    {
+      "identifier": "FR-BE-Y-BASE-------160101-01",
+      "opening_date": "2015-12-02T14:30:00+01:00",
+      "closure_date": "2015-12-09T14:30:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-02T10:30:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Belgium",
+      "receiver_country_eic_code": "10YBE----------2",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 1450
+        }
+      ]
+    },
+    {
+      "identifier": "BE-FR-Y-BASE-------160101-01",
+      "opening_date": "2015-12-02T14:30:00+01:00",
+      "closure_date": "2015-12-09T14:30:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-02T10:30:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "Belgium",
+      "sender_country_eic_code": "10YBE----------2",
+      "receiver_country_name": "France",
+      "receiver_country_eic_code": "10YFR-RTE------C",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 200
+        }
+      ]
+    },
+    {
+      "identifier": "FR-IT-Y-BASE-------160101-01",
+      "opening_date": "2015-12-03T13:00:00+01:00",
+      "closure_date": "2015-12-10T13:00:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-03T11:00:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Italy",
+      "receiver_country_eic_code": "10YIT-GRTN-----B",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 310
+        }
+      ]
+    },
+    {
+      "identifier": "FR-IT-Y-BASE-------160101-02",
+      "opening_date": "2015-12-03T13:10:00+01:00",
+      "closure_date": "2015-12-10T13:10:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-03T11:01:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Italy",
+      "receiver_country_eic_code": "10YIT-GRTN-----B",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2016-03-13T00:00:00+01:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-03-13T00:00:00+01:00",
+          "end_date": "2016-03-14T00:00:00+01:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-03-14T00:00:00+01:00",
+          "end_date": "2016-03-20T00:00:00+01:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-03-20T00:00:00+01:00",
+          "end_date": "2016-03-21T00:00:00+01:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-03-21T00:00:00+01:00",
+          "end_date": "2016-03-26T00:00:00+01:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-03-26T00:00:00+01:00",
+          "end_date": "2016-03-30T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-03-30T00:00:00+02:00",
+          "end_date": "2016-04-02T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-04-02T00:00:00+02:00",
+          "end_date": "2016-04-04T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-04-04T00:00:00+02:00",
+          "end_date": "2016-04-09T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-04-09T00:00:00+02:00",
+          "end_date": "2016-04-11T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-04-11T00:00:00+02:00",
+          "end_date": "2016-04-16T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-04-16T00:00:00+02:00",
+          "end_date": "2016-04-18T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-04-18T00:00:00+02:00",
+          "end_date": "2016-04-23T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-04-23T00:00:00+02:00",
+          "end_date": "2016-04-27T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-04-27T00:00:00+02:00",
+          "end_date": "2016-04-30T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-04-30T00:00:00+02:00",
+          "end_date": "2016-05-03T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-05-03T00:00:00+02:00",
+          "end_date": "2016-05-07T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-05-07T00:00:00+02:00",
+          "end_date": "2016-05-09T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-05-09T00:00:00+02:00",
+          "end_date": "2016-05-14T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-05-14T00:00:00+02:00",
+          "end_date": "2016-05-16T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-05-16T00:00:00+02:00",
+          "end_date": "2016-05-21T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-05-21T00:00:00+02:00",
+          "end_date": "2016-05-23T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-05-23T00:00:00+02:00",
+          "end_date": "2016-05-28T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-05-28T00:00:00+02:00",
+          "end_date": "2016-05-30T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-05-30T00:00:00+02:00",
+          "end_date": "2016-06-01T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-06-01T00:00:00+02:00",
+          "end_date": "2016-06-06T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-06-06T00:00:00+02:00",
+          "end_date": "2016-06-12T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-06-12T00:00:00+02:00",
+          "end_date": "2016-06-13T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-06-13T00:00:00+02:00",
+          "end_date": "2016-07-03T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-07-03T00:00:00+02:00",
+          "end_date": "2016-07-04T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-07-04T00:00:00+02:00",
+          "end_date": "2016-08-06T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-08-06T00:00:00+02:00",
+          "end_date": "2016-08-09T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-08-09T00:00:00+02:00",
+          "end_date": "2016-08-12T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-08-12T00:00:00+02:00",
+          "end_date": "2016-08-17T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-08-17T00:00:00+02:00",
+          "end_date": "2016-08-20T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-08-20T00:00:00+02:00",
+          "end_date": "2016-08-23T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-08-23T00:00:00+02:00",
+          "end_date": "2016-08-27T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-08-27T00:00:00+02:00",
+          "end_date": "2016-08-29T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-08-29T00:00:00+02:00",
+          "end_date": "2016-09-04T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-09-04T00:00:00+02:00",
+          "end_date": "2016-09-09T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-09-09T00:00:00+02:00",
+          "end_date": "2016-09-11T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-09-11T00:00:00+02:00",
+          "end_date": "2016-09-12T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-09-12T00:00:00+02:00",
+          "end_date": "2016-10-30T00:00:00+02:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-10-30T00:00:00+02:00",
+          "end_date": "2016-10-31T00:00:00+01:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-10-31T00:00:00+01:00",
+          "end_date": "2016-11-01T00:00:00+01:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-11-01T00:00:00+01:00",
+          "end_date": "2016-11-02T00:00:00+01:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-11-02T00:00:00+01:00",
+          "end_date": "2016-11-06T00:00:00+01:00",
+          "value": 620
+        },
+        {
+          "start_date": "2016-11-06T00:00:00+01:00",
+          "end_date": "2016-11-07T00:00:00+01:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-11-07T00:00:00+01:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 620
+        }
+      ]
+    },
+    {
+      "identifier": "IT-FR-Y-BASE-------160101-01",
+      "opening_date": "2015-12-03T13:20:00+01:00",
+      "closure_date": "2015-12-10T13:20:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-03T11:00:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "Italy",
+      "sender_country_eic_code": "10YIT-GRTN-----B",
+      "receiver_country_name": "France",
+      "receiver_country_eic_code": "10YFR-RTE------C",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 700
+        }
+      ]
+    },
+    {
+      "identifier": "FR-ES-Y-BASE-------160101-01",
+      "opening_date": "2015-12-03T14:10:00+01:00",
+      "closure_date": "2015-12-10T14:10:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-03T13:40:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Spain",
+      "receiver_country_eic_code": "10YES-REE------0",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2016-08-29T00:00:00+02:00",
+          "value": 700
+        },
+        {
+          "start_date": "2016-08-29T00:00:00+02:00",
+          "end_date": "2016-09-12T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-09-12T00:00:00+02:00",
+          "end_date": "2016-09-13T00:00:00+02:00",
+          "value": 700
+        },
+        {
+          "start_date": "2016-09-13T00:00:00+02:00",
+          "end_date": "2016-09-16T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-09-16T00:00:00+02:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 700
+        }
+      ]
+    },
+    {
+      "identifier": "ES-FR-Y-BASE-------160101-01",
+      "opening_date": "2015-12-03T14:00:00+01:00",
+      "closure_date": "2015-12-10T14:00:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-03T13:31:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "Spain",
+      "sender_country_eic_code": "10YES-REE------0",
+      "receiver_country_name": "France",
+      "receiver_country_eic_code": "10YFR-RTE------C",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2016-03-07T00:00:00+01:00",
+          "value": 700
+        },
+        {
+          "start_date": "2016-03-07T00:00:00+01:00",
+          "end_date": "2016-03-19T00:00:00+01:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-03-19T00:00:00+01:00",
+          "end_date": "2016-05-02T00:00:00+02:00",
+          "value": 700
+        },
+        {
+          "start_date": "2016-05-02T00:00:00+02:00",
+          "end_date": "2016-05-14T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-05-14T00:00:00+02:00",
+          "end_date": "2016-06-20T00:00:00+02:00",
+          "value": 700
+        },
+        {
+          "start_date": "2016-06-20T00:00:00+02:00",
+          "end_date": "2016-06-25T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-06-25T00:00:00+02:00",
+          "end_date": "2016-06-27T00:00:00+02:00",
+          "value": 700
+        },
+        {
+          "start_date": "2016-06-27T00:00:00+02:00",
+          "end_date": "2016-07-02T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-07-02T00:00:00+02:00",
+          "end_date": "2016-08-15T00:00:00+02:00",
+          "value": 700
+        },
+        {
+          "start_date": "2016-08-15T00:00:00+02:00",
+          "end_date": "2016-09-17T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-09-17T00:00:00+02:00",
+          "end_date": "2016-10-03T00:00:00+02:00",
+          "value": 700
+        },
+        {
+          "start_date": "2016-10-03T00:00:00+02:00",
+          "end_date": "2016-10-08T00:00:00+02:00",
+          "value": 0
+        },
+        {
+          "start_date": "2016-10-08T00:00:00+02:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 700
+        }
+      ]
+    },
+    {
+      "identifier": "FR-CH-Y-BASE-------160101-01",
+      "opening_date": "2015-12-03T15:00:00+01:00",
+      "closure_date": "2015-12-10T15:00:00+01:00",
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2017-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-03T11:00:00+01:00",
+      "type": "ANNUAL",
+      "sender_country_name": "France",
+      "sender_country_eic_code": "10YFR-RTE------C",
+      "receiver_country_name": "Switzerland",
+      "receiver_country_eic_code": "10YCH-SWISSGRIDZ",
+      "values": [
+        {
+          "start_date": "2016-01-01T00:00:00+01:00",
+          "end_date": "2017-01-01T00:00:00+01:00",
+          "value": 200
+        }
+      ]
+    }
+  ]
+}

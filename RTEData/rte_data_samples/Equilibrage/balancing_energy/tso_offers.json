@@ -1,0 +1,853 @@
+﻿{
+  "tso_offers": [
+    {
+      "start_date": "2015-06-06T00:00:00+02:00",
+      "end_date": "2015-06-07T00:00:00+02:00",
+      "type": "ACTIVATED",
+      "tso_offering": "NG",
+      "tso_activating": "RTE",
+      "values": [
+        {
+          "start_date": "2015-06-06T00:00:00+02:00",
+          "end_date": "2015-06-06T01:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T01:00:00+02:00",
+          "end_date": "2015-06-06T02:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T02:00:00+02:00",
+          "end_date": "2015-06-06T03:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T03:00:00+02:00",
+          "end_date": "2015-06-06T04:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T04:00:00+02:00",
+          "end_date": "2015-06-06T05:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T05:00:00+02:00",
+          "end_date": "2015-06-06T06:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T06:00:00+02:00",
+          "end_date": "2015-06-06T07:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T07:00:00+02:00",
+          "end_date": "2015-06-06T08:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T08:00:00+02:00",
+          "end_date": "2015-06-06T09:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T09:00:00+02:00",
+          "end_date": "2015-06-06T10:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T10:00:00+02:00",
+          "end_date": "2015-06-06T11:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T11:00:00+02:00",
+          "end_date": "2015-06-06T12:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T12:00:00+02:00",
+          "end_date": "2015-06-06T13:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T13:00:00+02:00",
+          "end_date": "2015-06-06T14:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T14:00:00+02:00",
+          "end_date": "2015-06-06T15:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T15:00:00+02:00",
+          "end_date": "2015-06-06T16:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T16:00:00+02:00",
+          "end_date": "2015-06-06T17:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T17:00:00+02:00",
+          "end_date": "2015-06-06T18:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T18:00:00+02:00",
+          "end_date": "2015-06-06T19:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T19:00:00+02:00",
+          "end_date": "2015-06-06T20:00:00+02:00",
+          "upward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T20:00:00+02:00",
+          "end_date": "2015-06-06T21:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T21:00:00+02:00",
+          "end_date": "2015-06-06T22:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T22:00:00+02:00",
+          "end_date": "2015-06-06T23:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T23:00:00+02:00",
+          "end_date": "2015-06-07T00:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        }
+      ]
+    },
+    {
+      "start_date": "2015-06-06T00:00:00+02:00",
+      "end_date": "2015-06-07T00:00:00+02:00",
+      "type": "SUBMITTED",
+      "tso_offering": "NG",
+      "values": [
+        {
+          "start_date": "2015-06-06T00:00:00+02:00",
+          "end_date": "2015-06-06T01:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 97.19,
+          "minimum_upward_price": 92.69,
+          "downward_volume": 500,
+          "maximum_downward_price": -113.84,
+          "minimum_downward_price": -134.61
+        },
+        {
+          "start_date": "2015-06-06T01:00:00+02:00",
+          "end_date": "2015-06-06T02:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 105.17,
+          "minimum_upward_price": 102.2,
+          "downward_volume": 500,
+          "maximum_downward_price": -280.04,
+          "minimum_downward_price": -301.73
+        },
+        {
+          "start_date": "2015-06-06T02:00:00+02:00",
+          "end_date": "2015-06-06T03:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 103.52,
+          "minimum_upward_price": 102.86,
+          "downward_volume": 500,
+          "maximum_downward_price": -278.76,
+          "minimum_downward_price": -305.98
+        },
+        {
+          "start_date": "2015-06-06T03:00:00+02:00",
+          "end_date": "2015-06-06T04:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 108.34,
+          "minimum_upward_price": 102.54
+        },
+        {
+          "start_date": "2015-06-06T04:00:00+02:00",
+          "end_date": "2015-06-06T05:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 113.89,
+          "minimum_upward_price": 103.42
+        },
+        {
+          "start_date": "2015-06-06T05:00:00+02:00",
+          "end_date": "2015-06-06T06:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 119.93,
+          "minimum_upward_price": 103.35
+        },
+        {
+          "start_date": "2015-06-06T06:00:00+02:00",
+          "end_date": "2015-06-06T07:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 274.78,
+          "minimum_upward_price": 255.35
+        },
+        {
+          "start_date": "2015-06-06T07:00:00+02:00",
+          "end_date": "2015-06-06T08:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 277.01,
+          "minimum_upward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T08:00:00+02:00",
+          "end_date": "2015-06-06T09:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 388.3,
+          "minimum_upward_price": 0,
+          "downward_volume": 500,
+          "maximum_downward_price": 60.4,
+          "minimum_downward_price": 37.03
+        },
+        {
+          "start_date": "2015-06-06T09:00:00+02:00",
+          "end_date": "2015-06-06T10:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 392.33,
+          "minimum_upward_price": 354.9,
+          "downward_volume": 500,
+          "maximum_downward_price": 61.86,
+          "minimum_downward_price": 40.71
+        },
+        {
+          "start_date": "2015-06-06T10:00:00+02:00",
+          "end_date": "2015-06-06T11:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 396.29,
+          "minimum_upward_price": 355.14,
+          "downward_volume": 500,
+          "maximum_downward_price": 60.52,
+          "minimum_downward_price": 42.55
+        },
+        {
+          "start_date": "2015-06-06T11:00:00+02:00",
+          "end_date": "2015-06-06T12:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 395.56,
+          "minimum_upward_price": 354.7,
+          "downward_volume": 500,
+          "maximum_downward_price": 64.03,
+          "minimum_downward_price": 44.65
+        },
+        {
+          "start_date": "2015-06-06T12:00:00+02:00",
+          "end_date": "2015-06-06T13:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 397.83,
+          "minimum_upward_price": 354.83,
+          "downward_volume": 500,
+          "maximum_downward_price": 65.17,
+          "minimum_downward_price": 45.64
+        },
+        {
+          "start_date": "2015-06-06T13:00:00+02:00",
+          "end_date": "2015-06-06T14:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 397.38,
+          "minimum_upward_price": 354.83
+        },
+        {
+          "start_date": "2015-06-06T14:00:00+02:00",
+          "end_date": "2015-06-06T15:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 262.98,
+          "minimum_upward_price": 224.05
+        },
+        {
+          "start_date": "2015-06-06T15:00:00+02:00",
+          "end_date": "2015-06-06T16:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 129.27,
+          "minimum_upward_price": 92.17
+        },
+        {
+          "start_date": "2015-06-06T16:00:00+02:00",
+          "end_date": "2015-06-06T17:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 122.46,
+          "minimum_upward_price": 91.06
+        },
+        {
+          "start_date": "2015-06-06T17:00:00+02:00",
+          "end_date": "2015-06-06T18:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 124.5,
+          "minimum_upward_price": 89.32
+        },
+        {
+          "start_date": "2015-06-06T18:00:00+02:00",
+          "end_date": "2015-06-06T19:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 125.55,
+          "minimum_upward_price": 89.69
+        },
+        {
+          "start_date": "2015-06-06T19:00:00+02:00",
+          "end_date": "2015-06-06T20:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 125.84,
+          "minimum_upward_price": 89.27
+        },
+        {
+          "start_date": "2015-06-06T20:00:00+02:00",
+          "end_date": "2015-06-06T21:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 379.33,
+          "minimum_upward_price": 354.23,
+          "downward_volume": 500,
+          "maximum_downward_price": 57.23,
+          "minimum_downward_price": 44.89
+        },
+        {
+          "start_date": "2015-06-06T21:00:00+02:00",
+          "end_date": "2015-06-06T22:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 374.81,
+          "minimum_upward_price": 354.08,
+          "downward_volume": 500,
+          "maximum_downward_price": 58.33,
+          "minimum_downward_price": 44.88
+        },
+        {
+          "start_date": "2015-06-06T22:00:00+02:00",
+          "end_date": "2015-06-06T23:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 374.55,
+          "minimum_upward_price": 354.45,
+          "downward_volume": 500,
+          "maximum_downward_price": 56.61,
+          "minimum_downward_price": 44.39
+        },
+        {
+          "start_date": "2015-06-06T23:00:00+02:00",
+          "end_date": "2015-06-07T00:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 118.38,
+          "minimum_upward_price": 102.44,
+          "downward_volume": 500,
+          "maximum_downward_price": 57.78,
+          "minimum_downward_price": 44.27
+        }
+      ]
+    },
+    {
+      "start_date": "2015-06-06T00:00:00+02:00",
+      "end_date": "2015-06-07T00:00:00+02:00",
+      "type": "ACTIVATED",
+      "tso_offering": "REE",
+      "tso_activating": "RTE",
+      "values": [
+        {
+          "start_date": "2015-06-06T00:00:00+02:00",
+          "end_date": "2015-06-06T01:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T01:00:00+02:00",
+          "end_date": "2015-06-06T02:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T03:00:00+02:00",
+          "end_date": "2015-06-06T04:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T05:00:00+02:00",
+          "end_date": "2015-06-06T06:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T06:00:00+02:00",
+          "end_date": "2015-06-06T07:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T07:00:00+02:00",
+          "end_date": "2015-06-06T08:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T08:00:00+02:00",
+          "end_date": "2015-06-06T09:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T09:00:00+02:00",
+          "end_date": "2015-06-06T10:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T10:00:00+02:00",
+          "end_date": "2015-06-06T11:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T12:00:00+02:00",
+          "end_date": "2015-06-06T13:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T14:00:00+02:00",
+          "end_date": "2015-06-06T15:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T16:00:00+02:00",
+          "end_date": "2015-06-06T17:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T18:00:00+02:00",
+          "end_date": "2015-06-06T19:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T19:00:00+02:00",
+          "end_date": "2015-06-06T20:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T20:00:00+02:00",
+          "end_date": "2015-06-06T21:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T22:00:00+02:00",
+          "end_date": "2015-06-06T23:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        },
+        {
+          "start_date": "2015-06-06T23:00:00+02:00",
+          "end_date": "2015-06-07T00:00:00+02:00",
+          "upward_volume": 0,
+          "downward_volume": 0
+        }
+      ]
+    },
+    {
+      "start_date": "2015-06-06T00:00:00+02:00",
+      "end_date": "2015-06-07T00:00:00+02:00",
+      "type": "SUBMITTED",
+      "tso_offering": "REE",
+      "values": [
+        {
+          "start_date": "2015-06-06T00:00:00+02:00",
+          "end_date": "2015-06-06T01:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 70.68,
+          "minimum_upward_price": 69.95,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.02,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T01:00:00+02:00",
+          "end_date": "2015-06-06T02:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 70.39,
+          "minimum_upward_price": 68,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.02,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T03:00:00+02:00",
+          "end_date": "2015-06-06T04:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 68.51,
+          "minimum_upward_price": 67.45,
+          "downward_volume": 500,
+          "maximum_downward_price": 0,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T05:00:00+02:00",
+          "end_date": "2015-06-06T06:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 67.68,
+          "minimum_upward_price": 66.85,
+          "downward_volume": 500,
+          "maximum_downward_price": 0,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T06:00:00+02:00",
+          "end_date": "2015-06-06T07:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 67.45,
+          "minimum_upward_price": 66.85,
+          "downward_volume": 500,
+          "maximum_downward_price": 0,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T07:00:00+02:00",
+          "end_date": "2015-06-06T08:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 67.68,
+          "minimum_upward_price": 67.03,
+          "downward_volume": 500,
+          "maximum_downward_price": 0,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T08:00:00+02:00",
+          "end_date": "2015-06-06T09:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 71.09,
+          "minimum_upward_price": 68.51,
+          "downward_volume": 500,
+          "maximum_downward_price": 0,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T09:00:00+02:00",
+          "end_date": "2015-06-06T10:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 73.73,
+          "minimum_upward_price": 71.12,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.03,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T10:00:00+02:00",
+          "end_date": "2015-06-06T11:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 75.53,
+          "minimum_upward_price": 73.75,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.04,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T12:00:00+02:00",
+          "end_date": "2015-06-06T13:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 98.15,
+          "minimum_upward_price": 85,
+          "downward_volume": 500,
+          "maximum_downward_price": 10.28,
+          "minimum_downward_price": 0.38
+        },
+        {
+          "start_date": "2015-06-06T14:00:00+02:00",
+          "end_date": "2015-06-06T15:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 80,
+          "minimum_upward_price": 75.75,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.05,
+          "minimum_downward_price": 0.01
+        },
+        {
+          "start_date": "2015-06-06T16:00:00+02:00",
+          "end_date": "2015-06-06T17:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 73.75,
+          "minimum_upward_price": 73,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.05,
+          "minimum_downward_price": 0.01
+        },
+        {
+          "start_date": "2015-06-06T18:00:00+02:00",
+          "end_date": "2015-06-06T19:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 77.49,
+          "minimum_upward_price": 75.33,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.03,
+          "minimum_downward_price": 0.01
+        },
+        {
+          "start_date": "2015-06-06T19:00:00+02:00",
+          "end_date": "2015-06-06T20:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 77.76,
+          "minimum_upward_price": 75.53,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.04,
+          "minimum_downward_price": 0.01
+        },
+        {
+          "start_date": "2015-06-06T20:00:00+02:00",
+          "end_date": "2015-06-06T21:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 75.33,
+          "minimum_upward_price": 73.73,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.03,
+          "minimum_downward_price": 0
+        },
+        {
+          "start_date": "2015-06-06T22:00:00+02:00",
+          "end_date": "2015-06-06T23:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 80,
+          "minimum_upward_price": 77.5,
+          "downward_volume": 500,
+          "maximum_downward_price": 10.28,
+          "minimum_downward_price": 0.05
+        },
+        {
+          "start_date": "2015-06-06T23:00:00+02:00",
+          "end_date": "2015-06-07T00:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 75.49,
+          "minimum_upward_price": 73.75,
+          "downward_volume": 500,
+          "maximum_downward_price": 0.03,
+          "minimum_downward_price": 0
+        }
+      ]
+    },
+    {
+      "start_date": "2015-06-06T00:00:00+02:00",
+      "end_date": "2015-06-07T00:00:00+02:00",
+      "type": "ACTIVATED",
+      "tso_offering": "RTE",
+      "tso_activating": "NG",
+      "values": [
+        {
+          "start_date": "2015-06-06T07:00:00+02:00",
+          "end_date": "2015-06-06T08:00:00+02:00",
+          "downward_volume": 150
+        }
+      ]
+    },
+    {
+      "start_date": "2015-06-06T00:00:00+02:00",
+      "end_date": "2015-06-07T00:00:00+02:00",
+      "type": "SUBMITTED",
+      "tso_offering": "RTE",
+      "values": [
+        {
+          "start_date": "2015-06-06T00:00:00+02:00",
+          "end_date": "2015-06-06T01:00:00+02:00",
+          "downward_volume": 500,
+          "maximum_downward_price": 21.73,
+          "minimum_downward_price": 21.72
+        },
+        {
+          "start_date": "2015-06-06T01:00:00+02:00",
+          "end_date": "2015-06-06T02:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 50.1,
+          "minimum_upward_price": 49
+        },
+        {
+          "start_date": "2015-06-06T02:00:00+02:00",
+          "end_date": "2015-06-06T03:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 49,
+          "minimum_upward_price": 47
+        },
+        {
+          "start_date": "2015-06-06T03:00:00+02:00",
+          "end_date": "2015-06-06T04:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 46.9,
+          "minimum_upward_price": 42.8
+        },
+        {
+          "start_date": "2015-06-06T04:00:00+02:00",
+          "end_date": "2015-06-06T05:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 50.1,
+          "minimum_upward_price": 49
+        },
+        {
+          "start_date": "2015-06-06T05:00:00+02:00",
+          "end_date": "2015-06-06T06:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 49,
+          "minimum_upward_price": 47
+        },
+        {
+          "start_date": "2015-06-06T06:00:00+02:00",
+          "end_date": "2015-06-06T07:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 49,
+          "minimum_upward_price": 47
+        },
+        {
+          "start_date": "2015-06-06T07:00:00+02:00",
+          "end_date": "2015-06-06T08:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 50.1,
+          "minimum_upward_price": 50.1,
+          "downward_volume": 150,
+          "maximum_downward_price": 1.01,
+          "minimum_downward_price": 1.01
+        },
+        {
+          "start_date": "2015-06-06T08:00:00+02:00",
+          "end_date": "2015-06-06T09:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 168.9,
+          "minimum_upward_price": 152.2
+        },
+        {
+          "start_date": "2015-06-06T10:00:00+02:00",
+          "end_date": "2015-06-06T11:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 50.1,
+          "minimum_upward_price": 50.1
+        },
+        {
+          "start_date": "2015-06-06T11:00:00+02:00",
+          "end_date": "2015-06-06T12:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 91.4,
+          "minimum_upward_price": 62.3,
+          "downward_volume": 50,
+          "maximum_downward_price": 3.47,
+          "minimum_downward_price": 3.47
+        },
+        {
+          "start_date": "2015-06-06T12:00:00+02:00",
+          "end_date": "2015-06-06T13:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 152.2,
+          "minimum_upward_price": 99.9
+        },
+        {
+          "start_date": "2015-06-06T13:00:00+02:00",
+          "end_date": "2015-06-06T14:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 50.1,
+          "minimum_upward_price": 50.1
+        },
+        {
+          "start_date": "2015-06-06T14:00:00+02:00",
+          "end_date": "2015-06-06T15:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 62.3,
+          "minimum_upward_price": 50.1
+        },
+        {
+          "start_date": "2015-06-06T15:00:00+02:00",
+          "end_date": "2015-06-06T16:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 52,
+          "minimum_upward_price": 50.1
+        },
+        {
+          "start_date": "2015-06-06T16:00:00+02:00",
+          "end_date": "2015-06-06T17:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 112,
+          "minimum_upward_price": 90.25
+        },
+        {
+          "start_date": "2015-06-06T17:00:00+02:00",
+          "end_date": "2015-06-06T18:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 152.2,
+          "minimum_upward_price": 142.96
+        },
+        {
+          "start_date": "2015-06-06T18:00:00+02:00",
+          "end_date": "2015-06-06T19:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 152.2,
+          "minimum_upward_price": 99.9,
+          "downward_volume": 500,
+          "maximum_downward_price": 22,
+          "minimum_downward_price": 10
+        },
+        {
+          "start_date": "2015-06-06T19:00:00+02:00",
+          "end_date": "2015-06-06T20:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 99.9,
+          "minimum_upward_price": 90.25,
+          "downward_volume": 350,
+          "maximum_downward_price": 22,
+          "minimum_downward_price": 10
+        },
+        {
+          "start_date": "2015-06-06T20:00:00+02:00",
+          "end_date": "2015-06-06T21:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 62.3,
+          "minimum_upward_price": 50.1,
+          "downward_volume": 500,
+          "maximum_downward_price": 23,
+          "minimum_downward_price": 22
+        },
+        {
+          "start_date": "2015-06-06T21:00:00+02:00",
+          "end_date": "2015-06-06T22:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 50.1,
+          "minimum_upward_price": 50.1,
+          "downward_volume": 500,
+          "maximum_downward_price": 23,
+          "minimum_downward_price": 22
+        },
+        {
+          "start_date": "2015-06-06T22:00:00+02:00",
+          "end_date": "2015-06-06T23:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 250,
+          "minimum_upward_price": 209.68,
+          "downward_volume": 500,
+          "maximum_downward_price": 23,
+          "minimum_downward_price": 22
+        },
+        {
+          "start_date": "2015-06-06T23:00:00+02:00",
+          "end_date": "2015-06-07T00:00:00+02:00",
+          "upward_volume": 500,
+          "maximum_upward_price": 250,
+          "minimum_upward_price": 209.68,
+          "downward_volume": 500,
+          "maximum_downward_price": 23,
+          "minimum_downward_price": 23
+        }
+      ]
+    }
+  ]
+}

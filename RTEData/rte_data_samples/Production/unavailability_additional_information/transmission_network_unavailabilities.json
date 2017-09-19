@@ -1,0 +1,795 @@
+﻿{
+  "transmission_network_unavailabilities": [
+    {
+      "start_date": "2016-05-09T07:00:00+02:00",
+      "end_date": "2016-05-13T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC03",
+      "version": 3,
+      "creation_date": "2016-03-18T14:45:00+01:00",
+      "updated_date": "2016-03-24T14:45:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-BE-FR-000031",
+        "name": "Avelgem-Avelin",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YCB-GERMANY--8",
+          "sender_country_name": "Germany",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1500
+        },
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YCB-GERMANY--8",
+          "receiver_country_name": "Germany",
+          "value": 2100
+        }
+      ]
+    },
+    {
+      "start_date": "2016-05-09T07:00:00+02:00",
+      "end_date": "2016-05-13T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC04",
+      "version": 3,
+      "creation_date": "2016-03-18T14:45:00+01:00",
+      "updated_date": "2016-03-24T14:45:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-BE-FR-000031",
+        "name": "Avelgem-Avelin",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YCB-GERMANY--8",
+          "sender_country_name": "Germany",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1500
+        }
+      ]
+    },
+    {
+      "start_date": "2016-05-09T07:00:00+02:00",
+      "end_date": "2016-05-13T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC05",
+      "version": 3,
+      "creation_date": "2016-03-18T14:45:00+01:00",
+      "updated_date": "2016-03-24T14:45:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-BE-FR-000031",
+        "name": "Avelgem-Avelin",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YCB-GERMANY--8",
+          "receiver_country_name": "Germany",
+          "value": 2100
+        }
+      ]
+    },
+    {
+      "start_date": "2016-05-09T07:00:00+02:00",
+      "end_date": "2016-05-13T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC21",
+      "version": 3,
+      "creation_date": "2016-03-18T14:45:00+01:00",
+      "updated_date": "2016-03-24T14:45:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-BE-FR-000031",
+        "name": "Avelgem-Avelin",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YCB-GERMANY--8",
+          "sender_country_name": "Germany",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1500
+        },
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YBE----------2",
+          "sender_country_name": "Belgium",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 600
+        },
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YCB-GERMANY--8",
+          "receiver_country_name": "Germany",
+          "value": 2100
+        },
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YBE----------2",
+          "receiver_country_name": "Belgium",
+          "value": 2050
+        }
+      ]
+    },
+    {
+      "start_date": "2016-05-09T07:00:00+02:00",
+      "end_date": "2016-05-13T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC22",
+      "version": 3,
+      "creation_date": "2016-03-18T14:45:00+01:00",
+      "updated_date": "2016-03-24T14:45:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-BE-FR-000031",
+        "name": "Avelgem-Avelin",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YCB-GERMANY--8",
+          "sender_country_name": "Germany",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1500
+        },
+        {
+          "start_date": "2016-05-09T07:00:00+02:00",
+          "end_date": "2016-05-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YCB-GERMANY--8",
+          "receiver_country_name": "Germany",
+          "value": 2100
+        }
+      ]
+    },
+    {
+      "start_date": "2016-04-25T07:00:00+02:00",
+      "end_date": "2016-04-26T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC09",
+      "version": 3,
+      "creation_date": "2016-03-18T14:44:00+01:00",
+      "updated_date": "2016-03-24T14:44:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-BE-FR-10004U",
+        "name": "Avelgem-Mastaing",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-04-25T07:00:00+02:00",
+          "end_date": "2016-04-26T17:00:00+02:00",
+          "sender_country_eic_code": "10YBE----------2",
+          "sender_country_name": "Belgium",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1050
+        },
+        {
+          "start_date": "2016-04-25T07:00:00+02:00",
+          "end_date": "2016-04-26T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YBE----------2",
+          "receiver_country_name": "Belgium",
+          "value": 1950
+        }
+      ]
+    },
+    {
+      "start_date": "2016-04-25T07:00:00+02:00",
+      "end_date": "2016-04-26T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC11",
+      "version": 3,
+      "creation_date": "2016-03-18T14:44:00+01:00",
+      "updated_date": "2016-03-24T14:44:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-BE-FR-10004U",
+        "name": "Avelgem-Mastaing",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-04-25T07:00:00+02:00",
+          "end_date": "2016-04-26T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YBE----------2",
+          "receiver_country_name": "Belgium",
+          "value": 1950
+        }
+      ]
+    },
+    {
+      "start_date": "2016-04-11T07:00:00+02:00",
+      "end_date": "2016-04-15T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC18",
+      "version": 3,
+      "creation_date": "2016-03-18T14:26:00+01:00",
+      "updated_date": "2016-03-24T14:26:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-CH-FR-00001Y",
+        "name": "Bassecourt-Mambelin",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-04-11T07:00:00+02:00",
+          "end_date": "2016-04-15T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YCH-SWISSGRIDZ",
+          "receiver_country_name": "Switzerland",
+          "value": 3200
+        },
+        {
+          "start_date": "2016-04-11T07:00:00+02:00",
+          "end_date": "2016-04-15T17:00:00+02:00",
+          "sender_country_eic_code": "10YCH-SWISSGRIDZ",
+          "sender_country_name": "Switzerland",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1200
+        }
+      ]
+    },
+    {
+      "start_date": "2016-04-11T07:00:00+02:00",
+      "end_date": "2016-04-15T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC19",
+      "version": 3,
+      "creation_date": "2016-03-19T14:26:00+01:00",
+      "updated_date": "2016-03-24T14:26:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-CH-FR-00001Y",
+        "name": "Bassecourt-Mambelin",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-04-11T07:00:00+02:00",
+          "end_date": "2016-04-15T17:00:00+02:00",
+          "sender_country_eic_code": "10YCH-SWISSGRIDZ",
+          "sender_country_name": "Switzerland",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1200
+        }
+      ]
+    },
+    {
+      "start_date": "2016-04-11T07:00:00+02:00",
+      "end_date": "2016-04-15T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC20",
+      "version": 3,
+      "creation_date": "2016-03-18T14:26:00+01:00",
+      "updated_date": "2016-03-24T14:26:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-CH-FR-00001Y",
+        "name": "Bassecourt-Mambelin",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "values": [
+        {
+          "start_date": "2016-04-11T07:00:00+02:00",
+          "end_date": "2016-04-15T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YCH-SWISSGRIDZ",
+          "receiver_country_name": "Switzerland",
+          "value": 3200
+        }
+      ]
+    },
+    {
+      "start_date": "2016-03-02T06:00:00+01:00",
+      "end_date": "2016-04-13T17:00:00+02:00",
+      "type": "PLANNED_MAINTENANCE",
+      "identifier": "EC-OUSPIR-Indispo-CC01",
+      "version": 3,
+      "creation_date": "2016-03-18T15:03:00+01:00",
+      "updated_date": "2016-03-24T15:03:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-ES-FR-00003X",
+        "name": "Biescas-Pragnères",
+        "type": "AC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "status": "CANCELLED",
+      "values": [
+        {
+          "start_date": "2016-03-02T06:00:00+01:00",
+          "end_date": "2016-04-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YES-REE------0",
+          "sender_country_name": "Spain",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 300
+        },
+        {
+          "start_date": "2016-03-02T06:00:00+01:00",
+          "end_date": "2016-04-13T17:00:00+02:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YES-REE------0",
+          "receiver_country_name": "Spain",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-19T08:00:00+01:00",
+      "end_date": "2016-02-19T10:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC06",
+      "version": 3,
+      "creation_date": "2016-03-18T17:41:00+01:00",
+      "updated_date": "2016-03-24T17:41:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-FR-GB-000025",
+        "name": "Mandarins-Sellindge 2",
+        "type": "DC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-19T08:00:00+01:00",
+          "end_date": "2016-02-19T10:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YGB----------A",
+          "receiver_country_name": "England",
+          "value": 1000
+        },
+        {
+          "start_date": "2016-02-19T08:00:00+01:00",
+          "end_date": "2016-02-19T10:00:00+01:00",
+          "sender_country_eic_code": "10YGB----------A",
+          "sender_country_name": "England",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-19T08:00:00+01:00",
+      "end_date": "2016-02-19T10:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC07",
+      "version": 3,
+      "creation_date": "2016-03-18T17:41:00+01:00",
+      "updated_date": "2016-03-24T17:41:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-FR-GB-000025",
+        "name": "Mandarins-Sellindge 2",
+        "type": "DC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-19T08:00:00+01:00",
+          "end_date": "2016-02-19T10:00:00+01:00",
+          "sender_country_eic_code": "10YGB----------A",
+          "sender_country_name": "England",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-19T08:00:00+01:00",
+      "end_date": "2016-02-19T10:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC08",
+      "version": 3,
+      "creation_date": "2016-03-18T17:41:00+01:00",
+      "updated_date": "2016-03-24T17:41:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-FR-GB-000025",
+        "name": "Mandarins-Sellindge 2",
+        "type": "DC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-19T08:00:00+01:00",
+          "end_date": "2016-02-19T10:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YGB----------A",
+          "receiver_country_name": "England",
+          "value": 1000
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-18T06:00:00+01:00",
+      "end_date": "2016-02-18T20:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC15",
+      "version": 3,
+      "creation_date": "2016-03-18T21:33:00+01:00",
+      "updated_date": "2016-03-24T21:33:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-FR-IT-00003Q",
+        "name": "Villarodin-Venaus",
+        "type": "AC_LINK"
+      },
+      "reason": "Failure / Défaillance\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-18T06:00:00+01:00",
+          "end_date": "2016-02-18T07:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 2787
+        },
+        {
+          "start_date": "2016-02-18T07:00:00+01:00",
+          "end_date": "2016-02-18T08:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 3223
+        },
+        {
+          "start_date": "2016-02-18T08:00:00+01:00",
+          "end_date": "2016-02-18T09:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 3386
+        },
+        {
+          "start_date": "2016-02-18T09:00:00+01:00",
+          "end_date": "2016-02-18T14:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 2586
+        },
+        {
+          "start_date": "2016-02-18T14:00:00+01:00",
+          "end_date": "2016-02-18T15:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 3126
+        },
+        {
+          "start_date": "2016-02-18T15:00:00+01:00",
+          "end_date": "2016-02-18T18:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 3386
+        },
+        {
+          "start_date": "2016-02-18T18:00:00+01:00",
+          "end_date": "2016-02-18T20:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 2586
+        },
+        {
+          "start_date": "2016-02-18T06:00:00+01:00",
+          "end_date": "2016-02-18T07:00:00+01:00",
+          "sender_country_eic_code": "10YIT-GRTN-----B",
+          "sender_country_name": "Italy",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1160
+        },
+        {
+          "start_date": "2016-02-18T07:00:00+01:00",
+          "end_date": "2016-02-18T20:00:00+01:00",
+          "sender_country_eic_code": "10YIT-GRTN-----B",
+          "sender_country_name": "Italy",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 995
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-18T06:00:00+01:00",
+      "end_date": "2016-02-18T20:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC16",
+      "version": 3,
+      "creation_date": "2016-03-18T21:33:00+01:00",
+      "updated_date": "2016-03-24T21:33:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-FR-IT-00003Q",
+        "name": "Villarodin-Venaus",
+        "type": "AC_LINK"
+      },
+      "reason": "Failure / Défaillance\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-18T06:00:00+01:00",
+          "end_date": "2016-02-18T07:00:00+01:00",
+          "sender_country_eic_code": "10YIT-GRTN-----B",
+          "sender_country_name": "Italy",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 1160
+        },
+        {
+          "start_date": "2016-02-18T07:00:00+01:00",
+          "end_date": "2016-02-18T20:00:00+01:00",
+          "sender_country_eic_code": "10YIT-GRTN-----B",
+          "sender_country_name": "Italy",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 995
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-18T06:00:00+01:00",
+      "end_date": "2016-02-18T20:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC17",
+      "version": 3,
+      "creation_date": "2016-03-23T21:33:00+01:00",
+      "updated_date": "2016-03-24T21:33:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-FR-IT-00003Q",
+        "name": "Villarodin-Venaus",
+        "type": "AC_LINK"
+      },
+      "reason": "Failure / Défaillance\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-18T06:00:00+01:00",
+          "end_date": "2016-02-18T07:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 2787
+        },
+        {
+          "start_date": "2016-02-18T07:00:00+01:00",
+          "end_date": "2016-02-18T08:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 3223
+        },
+        {
+          "start_date": "2016-02-18T08:00:00+01:00",
+          "end_date": "2016-02-18T09:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 3386
+        },
+        {
+          "start_date": "2016-02-18T09:00:00+01:00",
+          "end_date": "2016-02-18T14:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 2586
+        },
+        {
+          "start_date": "2016-02-18T14:00:00+01:00",
+          "end_date": "2016-02-18T15:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 3126
+        },
+        {
+          "start_date": "2016-02-18T15:00:00+01:00",
+          "end_date": "2016-02-18T18:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 3386
+        },
+        {
+          "start_date": "2016-02-18T18:00:00+01:00",
+          "end_date": "2016-02-18T20:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YIT-GRTN-----B",
+          "receiver_country_name": "Italy",
+          "value": 2586
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-15T09:00:00+01:00",
+      "end_date": "2016-02-15T14:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC12",
+      "version": 3,
+      "creation_date": "2016-03-18T09:46:00+01:00",
+      "updated_date": "2016-03-24T09:46:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-ES-FR-00008N",
+        "name": "Santa Llogaia-Baixas 1",
+        "type": "DC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-15T09:00:00+01:00",
+          "end_date": "2016-02-15T14:00:00+01:00",
+          "sender_country_eic_code": "10YES-REE------0",
+          "sender_country_name": "Spain",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 2150
+        },
+        {
+          "start_date": "2016-02-15T09:00:00+01:00",
+          "end_date": "2016-02-15T14:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YES-REE------0",
+          "receiver_country_name": "Spain",
+          "value": 2350
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-15T09:00:00+01:00",
+      "end_date": "2016-02-15T14:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC13",
+      "version": 3,
+      "creation_date": "2016-03-18T09:46:00+01:00",
+      "updated_date": "2016-03-24T09:46:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-ES-FR-00008N",
+        "name": "Santa Llogaia-Baixas 1",
+        "type": "DC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-15T09:00:00+01:00",
+          "end_date": "2016-02-15T14:00:00+01:00",
+          "sender_country_eic_code": "10YES-REE------0",
+          "sender_country_name": "Spain",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 2150
+        }
+      ]
+    },
+    {
+      "start_date": "2016-02-15T09:00:00+01:00",
+      "end_date": "2016-02-15T14:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC14",
+      "version": 3,
+      "creation_date": "2016-03-18T09:46:00+01:00",
+      "updated_date": "2016-03-24T09:46:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-ES-FR-00008N",
+        "name": "Santa Llogaia-Baixas 1",
+        "type": "DC_LINK"
+      },
+      "reason": "Foreseen Maintenance / Maintenance prévue\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-02-15T09:00:00+01:00",
+          "end_date": "2016-02-15T14:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YES-REE------0",
+          "receiver_country_name": "Spain",
+          "value": 2350
+        }
+      ]
+    },
+    {
+      "start_date": "2016-01-02T06:00:00+01:00",
+      "end_date": "2016-02-13T16:00:00+01:00",
+      "type": "FORCED_UNAVAILABILITY",
+      "identifier": "EC-OUSPIR-Indispo-CC02",
+      "version": 3,
+      "creation_date": "2016-03-18T15:03:00+01:00",
+      "updated_date": "2016-03-24T15:03:00+01:00",
+      "impacted_asset": {
+        "eic_code": "10T-ES-FR-00003X",
+        "name": "Biescas-Pragnères",
+        "type": "AC_LINK"
+      },
+      "reason": "Failure / Défaillance\n",
+      "status": "FINISHED",
+      "values": [
+        {
+          "start_date": "2016-01-02T06:00:00+01:00",
+          "end_date": "2016-02-13T16:00:00+01:00",
+          "sender_country_eic_code": "10YES-REE------0",
+          "sender_country_name": "Spain",
+          "receiver_country_eic_code": "10YFR-RTE------C",
+          "receiver_country_name": "France",
+          "value": 300
+        },
+        {
+          "start_date": "2016-01-02T06:00:00+01:00",
+          "end_date": "2016-02-13T16:00:00+01:00",
+          "sender_country_eic_code": "10YFR-RTE------C",
+          "sender_country_name": "France",
+          "receiver_country_eic_code": "10YES-REE------0",
+          "receiver_country_name": "Spain",
+          "value": 1000
+        }
+      ]
+    }
+  ]
+}

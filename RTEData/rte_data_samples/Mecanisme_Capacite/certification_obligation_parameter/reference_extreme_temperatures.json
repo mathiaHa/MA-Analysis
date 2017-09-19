@@ -1,0 +1,203 @@
+﻿{
+  "reference_extreme_temperatures": [
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-04T00:00:00+01:00",
+      "reference_values": [
+        {
+          "number": 1,
+          "value": -3.6
+        },
+        {
+          "number": 2,
+          "value": -3.6
+        },
+        {
+          "number": 3,
+          "value": -3.6
+        },
+        {
+          "number": 4,
+          "value": -3.7
+        },
+        {
+          "number": 5,
+          "value": -3.7
+        },
+        {
+          "number": 6,
+          "value": -3.7
+        },
+        {
+          "number": 7,
+          "value": -3.8
+        },
+        {
+          "number": 8,
+          "value": -3.8
+        },
+        {
+          "number": 9,
+          "value": -3.9
+        },
+        {
+          "number": 10,
+          "value": -3.9
+        },
+        {
+          "number": 11,
+          "value": -4
+        },
+        {
+          "number": 12,
+          "value": -4
+        },
+        {
+          "number": 13,
+          "value": -4
+        },
+        {
+          "number": 14,
+          "value": -3.8
+        },
+        {
+          "number": 15,
+          "value": -3.7
+        },
+        {
+          "number": 16,
+          "value": -3.6
+        },
+        {
+          "number": 17,
+          "value": -3.5
+        },
+        {
+          "number": 18,
+          "value": -3.4
+        },
+        {
+          "number": 19,
+          "value": -3.3
+        },
+        {
+          "number": 20,
+          "value": -3.1
+        },
+        {
+          "number": 21,
+          "value": -2.7
+        },
+        {
+          "number": 22,
+          "value": -2.4
+        },
+        {
+          "number": 23,
+          "value": -2.1
+        },
+        {
+          "number": 24,
+          "value": -1.9
+        },
+        {
+          "number": 25,
+          "value": -1.8
+        },
+        {
+          "number": 26,
+          "value": -1.8
+        },
+        {
+          "number": 27,
+          "value": -1.7
+        },
+        {
+          "number": 28,
+          "value": -1.7
+        },
+        {
+          "number": 29,
+          "value": -1.6
+        },
+        {
+          "number": 30,
+          "value": -1.6
+        },
+        {
+          "number": 31,
+          "value": -1.6
+        },
+        {
+          "number": 32,
+          "value": -1.8
+        },
+        {
+          "number": 33,
+          "value": -2
+        },
+        {
+          "number": 34,
+          "value": -2.2
+        },
+        {
+          "number": 35,
+          "value": -2.3
+        },
+        {
+          "number": 36,
+          "value": -2.6
+        },
+        {
+          "number": 37,
+          "value": -2.8
+        },
+        {
+          "number": 38,
+          "value": -2.9
+        },
+        {
+          "number": 39,
+          "value": -3.1
+        },
+        {
+          "number": 40,
+          "value": -3.3
+        },
+        {
+          "number": 41,
+          "value": -3.3
+        },
+        {
+          "number": 42,
+          "value": -3.4
+        },
+        {
+          "number": 43,
+          "value": -3.5
+        },
+        {
+          "number": 44,
+          "value": -3.6
+        },
+        {
+          "number": 45,
+          "value": -3.6
+        },
+        {
+          "number": 46,
+          "value": -3.6
+        },
+        {
+          "number": 47,
+          "value": -3.6
+        },
+        {
+          "number": 48,
+          "value": -3.6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+﻿{
+  "capacities_per_production_type": {
+    "start_date": "2021-01-01T00:00:00+01:00",
+    "end_date": "2022-01-01T00:00:00+01:00",
+    "values": [
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "FOSSIL_GAS",
+        "value": 28,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "FOSSIL_HARD_COAL",
+        "value": 35,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "FOSSIL_OIL",
+        "value": 42,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "HYDRO_PUMPED_STORAGE",
+        "value": 70,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "HYDRO_RUN_OF_RIVER_AND_POUNDAGE",
+        "value": 77,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "HYDRO_WATER_RESERVOIR",
+        "value": 84,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "MARINE",
+        "value": 91,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "NUCLEAR",
+        "value": 98,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "SOLAR",
+        "value": 112,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "WIND_OFFSHORE",
+        "value": 126,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      },
+      {
+        "start_date": "2021-01-01T00:00:00+01:00",
+        "end_date": "2022-01-01T00:00:00+01:00",
+        "type": "WIND_ONSHORE",
+        "value": 133,
+        "updated_date": "2015-10-21T18:26:14+02:00"
+      }
+    ]
+  }
+}

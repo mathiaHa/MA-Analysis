@@ -1,0 +1,20 @@
+﻿[
+  {
+    "label": " TOTAL PETROCHEMICALS France",
+    "society_ref_id": "XXX",
+    "creation_date": "2016-01-28T00:00:00Z",
+    "eic_code": "17X100A100F0076N",
+    "siren": "428891113",
+    "synapse_id": "SOC_1",
+    "update_date": "2016-01-28T00:00:00Z"
+  },
+  {
+    "label": "Arcelor Mittal Lorraine",
+    "society_ref_id": "123465",
+    "creation_date": "2015-06-15T00:00:00Z",
+    "eic_code": "17X100A157F0022N",
+    "siren": "1598745863",
+    "synapse_id": "SOC_2",
+    "update_date": "2016-01-28T00:00:00Z"
+  }
+]

@@ -1,0 +1,128 @@
+﻿{
+  "charts_parameters": [
+    {
+      "start_date": "2019-01-01T00:00:00+01:00",
+      "end_date": "2020-01-01T00:00:00+01:00",
+      "updated_date": "2015-12-04T00:00:00+01:00",
+      "parameter": {
+        "security_factor": 0.93,
+        "wind_c_coefficient": 70,
+        "solar_c_coefficient": 25,
+        "hydrau_c_coefficient": 85,
+        "certified_edc_cal_parameter": 1
+      },
+      "kh_chart": [
+        {
+          "number": 0,
+          "value": 0
+        },
+        {
+          "number": 1,
+          "value": 45
+        },
+        {
+          "number": 2,
+          "value": 73
+        },
+        {
+          "number": 3,
+          "value": 88
+        },
+        {
+          "number": 4,
+          "value": 94
+        },
+        {
+          "number": 5,
+          "value": 100
+        }
+      ],
+      "kj_chart": [
+        {
+          "number": 0,
+          "value": 0
+        },
+        {
+          "number": 1,
+          "value": 13
+        },
+        {
+          "number": 2,
+          "value": 25
+        },
+        {
+          "number": 3,
+          "value": 35
+        },
+        {
+          "number": 4,
+          "value": 46
+        },
+        {
+          "number": 5,
+          "value": 53
+        },
+        {
+          "number": 6,
+          "value": 59
+        },
+        {
+          "number": 7,
+          "value": 65
+        },
+        {
+          "number": 8,
+          "value": 70
+        },
+        {
+          "number": 9,
+          "value": 74
+        },
+        {
+          "number": 10,
+          "value": 78
+        },
+        {
+          "number": 11,
+          "value": 82
+        },
+        {
+          "number": 12,
+          "value": 85
+        },
+        {
+          "number": 13,
+          "value": 88
+        },
+        {
+          "number": 14,
+          "value": 91
+        },
+        {
+          "number": 15,
+          "value": 93
+        },
+        {
+          "number": 16,
+          "value": 95
+        },
+        {
+          "number": 17,
+          "value": 96
+        },
+        {
+          "number": 18,
+          "value": 98
+        },
+        {
+          "number": 19,
+          "value": 99
+        },
+        {
+          "number": 20,
+          "value": 100
+        }
+      ]
+    }
+  ]
+}

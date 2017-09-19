@@ -1,0 +1,220 @@
+﻿{
+  "consolidated_energy_consumption": [
+    {
+      "start_date": "2014-11-01T00:00:00+01:00",
+      "end_date": "2014-12-01T00:00:00+01:00",
+      "values": [
+        {
+          "start_date": "2014-11-30T00:00:00+01:00",
+          "end_date": "2014-12-01T00:00:00+01:00",
+          "value": 1287777,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-29T00:00:00+01:00",
+          "end_date": "2014-11-30T00:00:00+01:00",
+          "value": 1294661,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-28T00:00:00+01:00",
+          "end_date": "2014-11-29T00:00:00+01:00",
+          "value": 1426951,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-27T00:00:00+01:00",
+          "end_date": "2014-11-28T00:00:00+01:00",
+          "value": 1454444,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-26T00:00:00+01:00",
+          "end_date": "2014-11-27T00:00:00+01:00",
+          "value": 1453893,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-25T00:00:00+01:00",
+          "end_date": "2014-11-26T00:00:00+01:00",
+          "value": 1459282,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-24T00:00:00+01:00",
+          "end_date": "2014-11-25T00:00:00+01:00",
+          "value": 1404219,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-23T00:00:00+01:00",
+          "end_date": "2014-11-24T00:00:00+01:00",
+          "value": 1202440,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-22T00:00:00+01:00",
+          "end_date": "2014-11-23T00:00:00+01:00",
+          "value": 1294247,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-21T00:00:00+01:00",
+          "end_date": "2014-11-22T00:00:00+01:00",
+          "value": 1462551,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-20T00:00:00+01:00",
+          "end_date": "2014-11-21T00:00:00+01:00",
+          "value": 1511929,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-19T00:00:00+01:00",
+          "end_date": "2014-11-20T00:00:00+01:00",
+          "value": 1514655,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-18T00:00:00+01:00",
+          "end_date": "2014-11-19T00:00:00+01:00",
+          "value": 1484727,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-17T00:00:00+01:00",
+          "end_date": "2014-11-18T00:00:00+01:00",
+          "value": 1453194,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-16T00:00:00+01:00",
+          "end_date": "2014-11-17T00:00:00+01:00",
+          "value": 1234596,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-15T00:00:00+01:00",
+          "end_date": "2014-11-16T00:00:00+01:00",
+          "value": 1275193,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-14T00:00:00+01:00",
+          "end_date": "2014-11-15T00:00:00+01:00",
+          "value": 1422153,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-13T00:00:00+01:00",
+          "end_date": "2014-11-14T00:00:00+01:00",
+          "value": 1432484,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-12T00:00:00+01:00",
+          "end_date": "2014-11-13T00:00:00+01:00",
+          "value": 1396790,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-11T00:00:00+01:00",
+          "end_date": "2014-11-12T00:00:00+01:00",
+          "value": 1246598,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-10T00:00:00+01:00",
+          "end_date": "2014-11-11T00:00:00+01:00",
+          "value": 1327675,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-09T00:00:00+01:00",
+          "end_date": "2014-11-10T00:00:00+01:00",
+          "value": 1210274,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-08T00:00:00+01:00",
+          "end_date": "2014-11-09T00:00:00+01:00",
+          "value": 1274988,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-07T00:00:00+01:00",
+          "end_date": "2014-11-08T00:00:00+01:00",
+          "value": 1437583,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-06T00:00:00+01:00",
+          "end_date": "2014-11-07T00:00:00+01:00",
+          "value": 1451479,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-05T00:00:00+01:00",
+          "end_date": "2014-11-06T00:00:00+01:00",
+          "value": 1408998,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-04T00:00:00+01:00",
+          "end_date": "2014-11-05T00:00:00+01:00",
+          "value": 1340860,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-03T00:00:00+01:00",
+          "end_date": "2014-11-04T00:00:00+01:00",
+          "value": 1272203,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-02T00:00:00+01:00",
+          "end_date": "2014-11-03T00:00:00+01:00",
+          "value": 1049955,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        },
+        {
+          "start_date": "2014-11-01T00:00:00+01:00",
+          "end_date": "2014-11-02T00:00:00+01:00",
+          "value": 1072746,
+          "updated_date": "2016-07-01",
+          "status": "PROVISORY"
+        }
+      ]
+    }
+  ]
+}

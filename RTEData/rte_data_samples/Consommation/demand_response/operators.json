@@ -1,0 +1,213 @@
+﻿{
+  "operators": [
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R018RD",
+      "name": "ACTILITY",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": true
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0711P",
+      "name": "BLUE ELEC",
+      "trial_nebef_rules_agreement": false,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0652F",
+      "name": "BUDGET TELECOM",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": false,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "11XDANSKECOM---P",
+      "name": "DANSKE COMMODITIES A/S",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": false,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0172T",
+      "name": "DIRECT ENERGIE",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": true,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0709C",
+      "name": "ECOMETERING",
+      "trial_nebef_rules_agreement": false,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": false,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R00182",
+      "name": "EDF",
+      "trial_nebef_rules_agreement": false,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": false,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0416R",
+      "name": "ENERGY POOL DEVELOPPEMENT",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0382I",
+      "name": "E.ON FRANCE ENERGY SOLUTIONS  S.A.S.",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": false,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R06923",
+      "name": "EQINOV DEMAND SIDE MANAGEMENT",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100F0054X",
+      "name": "GDF SUEZ",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R026Y1",
+      "name": "HYDRONEXT",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0703O",
+      "name": "ILEK",
+      "trial_nebef_rules_agreement": false,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": false,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R06931",
+      "name": "METRON",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": false,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0535J",
+      "name": "SMART GRID ENERGY",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R01235",
+      "name": "SOLVAY ENERGY SERVICES",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": false,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0511X",
+      "name": "SOVEN",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100R0634H",
+      "name": "VALORIS ENERGIE",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": false,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    },
+    {
+      "start_date": "2016-01-01T00:00:00+01:00",
+      "end_date": "2016-02-01T00:00:00+01:00",
+      "updated_date": "2015-11-10T00:00:00+01:00",
+      "eic_code": "17X100A100D0385M",
+      "name": "VOLTALIS",
+      "trial_nebef_rules_agreement": true,
+      "trial_nebef_rules_qualification": true,
+      "nebef_rules_recognition": true,
+      "nebef_rules_qualification": false
+    }
+  ]
+}
