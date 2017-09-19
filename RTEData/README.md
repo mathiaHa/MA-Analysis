@@ -1,4 +1,4 @@
-Le nombre de couches est calculé entre la racine et chaque items de l'attribut "values" ou "time_series".
+Le nombre de couches est calculé entre la racine et chaques items de l'attribut "values" ou "time_series".
 
 
 
