@@ -4,7 +4,11 @@
 
 Choix de stockage des données sous formes de JSON.
 Problèmes:
-* L'API RTE
+* L'API RTE, en fonction des ressources:
+	* envoie des données structurées différement
+	* possède des restrictions différentes
+	* conseille une fréquences de mise à jour différente
+* CosmosDB accepte des fichiers de taille limitée
 
 ## 2. Classements
 
