@@ -14,7 +14,7 @@ Problèmes:
 
 Le nombre de couches est calculé entre la racine et chaques items de l'attribut "values" ou "time_series".
 
-### [MAIN DESIGN](./RTEData/design/pdf/Main_design.pdf)
+### [MAIN DESIGN](./design/pdf/Main_design.pdf)
 Pour les ressources:
 * [RTE-Consommation](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Consommation):
 	* big_metering
