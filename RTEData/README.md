@@ -13,6 +13,11 @@ Problèmes:
 ## 2. Classements
 
 Le nombre de couches est calculé entre la racine et chaques items de l'attribut "values" ou "time_series".
+L'attribut de chaque ressource "nlayer" représente cette structure:
+* single layer -> nlayer = 1
+* two layers -> nlayer = 2
+* two layers with condition -> nlayer = 21
+* three layers -> nlayer = 3
 
 ### [MAIN DESIGN](./design/pdf/Main_design.pdf)
 Pour les ressources:
