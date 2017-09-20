@@ -948,6 +948,7 @@
       "name": "forecasts",
       "type": "rte",
       "privacy": "open_api",
+      "nlayer": 2,
       "client": "rteroland",
       "application": "TEST_API_RTE",
       "api": "generation_forecast",
