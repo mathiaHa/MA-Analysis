@@ -1,9 +1,33 @@
 Le nombre de couches est calculé entre la racine et chaques items de l'attribut "values" ou "time_series".
 
-
-
 ### [MAIN DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Main_design.pdf)
 Pour les ressources:
+* [RTE-Consommation](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Consommation):
+	* big_metering
+		* validated_points
+	* big_physical
+		* validated_points
+	* big_raw_metering
+		* reference
+	* big_system
+		* validated_points
+	* consolidated_consumption:
+		* consolidated_energy_consumption
+		* consolidated_power_consumption
+	* consumption:
+		* annual_forecasts
+		* short_term
+		* weekly_forecasts
+	* demand-response:
+		* volumes
+	* id_referential:
+		* getTarnscodification
+	* speed_physical_view:
+		* speed
+	* speed_metering_view:
+		* speed
+	* tempo_like_supply_contract
+		* tempo_like_calendars
 * [RTE-Equilibrage](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Equilibrage):
 	* balancing_capacity
 		* accepted_offers
@@ -56,32 +80,6 @@ Pour les ressources:
 		* transmission_network_unavailabilities
 	* wholesale_market
 		* epex_spot_power_exchanges
-* [RTE-Consommation](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Consommation):
-	* big_metering
-		* validated_points
-	* big_physical
-		* validated_points
-	* big_raw_metering
-		* reference
-	* big_system
-		* validated_points
-	* consolidated_consumption:
-		* consolidated_energy_consumption
-		* consolidated_power_consumption
-	* consumption:
-		* annual_forecasts
-		* short_term
-		* weekly_forecasts
-	* demand-response:
-		* volumes
-	* id_referential:
-		* getTarnscodification
-	* speed_physical_view:
-		* speed
-	* speed_metering_view:
-		* speed
-	* tempo_like_supply_contract
-		* tempo_like_calendars
 
 ### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Condition_design.pdf)
 
