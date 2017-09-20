@@ -1,6 +1,16 @@
+# Structure de données venant de l'API de RTE
+
+## 1. Explications
+
+Choix de stockage des données sous formes de JSON.
+Problèmes:
+* L'API RTE
+
+## 2. Classements
+
 Le nombre de couches est calculé entre la racine et chaques items de l'attribut "values" ou "time_series".
 
-### [MAIN DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Main_design.pdf)
+### [MAIN DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/design/pdf/Main_design.pdf)
 Pour les ressources:
 * [RTE-Consommation](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Consommation):
 	* big_metering
@@ -81,7 +91,7 @@ Pour les ressources:
 	* wholesale_market
 		* epex_spot_power_exchanges
 
-### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Condition_design.pdf)
+### [MAIN DESIGN WITH CONDITION](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/design/pdf/Condition_design.pdf)
 
 Pour les ressources:
 * [RTE-Equilibrage](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Equilibrage):
@@ -94,7 +104,7 @@ Pour les ressources:
 	    * volumes_per_energy_type
 	    * volumes_per_entity_type
 	
-### [SINGLE LAYER DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Single_layer_design.pdf)
+### [SINGLE LAYER DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/design/pdf/Single_layer_design.pdf)
 Pour les ressources:
 * [RTE-Consommation](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Consommation):
 	* demand-response:
@@ -111,7 +121,7 @@ Pour les ressources:
 		* capacities_cpc
 
 		
-### [THREE LAYER DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Tree_layer_design.pdf)
+### [THREE LAYER DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/design/pdf/Tree_layer_design.pdf)
 Pour les ressources:
 * [RTE-Consommation](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Consommation):
 	* big_adjusted
