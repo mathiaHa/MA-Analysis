@@ -90,12 +90,15 @@ Pour les ressources:
 	    * lead_times
 	    * prices
 	    * tso_offers
-	    * volumes_per_energy
-	    * volumes_per_entity
 	    * volumes_per_reasons
+	    * volumes_per_energy_type
+	    * volumes_per_entity_type
 	
 ### [SINGLE LAYER DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Single_layer_design.pdf)
 Pour les ressources:
+* [RTE-Consommation](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Consommation):
+	* demand-response:
+		* operators
 * [RTE-Interconnexion](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Interconnexion):
 	* congestion:
 		* costs
@@ -106,9 +109,7 @@ Pour les ressources:
 * [RTE-Production](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Production):
 	* generation_installed_capacities:
 		* capacities_cpc
-* [RTE-Consommation](https://github.com/mathiaHa/MA-Analysis/tree/master/RTEData/rte_data_samples/Consommation):
-	* demand-response:
-		* operators
+
 		
 ### [THREE LAYER DESIGN](https://github.com/mathiaHa/MA-Analysis/blob/master/RTEData/Tree_layer_design.pdf)
 Pour les ressources:
