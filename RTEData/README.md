@@ -2,6 +2,7 @@
 
 ## 1. Explications
 
+### 16/09/17
 Choix de stockage des données sous formes de JSON.
 Problèmes:
 * L'API RTE, en fonction des ressources:
@@ -10,6 +11,12 @@ Problèmes:
 	* conseille une fréquences de mise à jour différente
 * CosmosDB accepte des fichiers de taille limitée
 
+### 25/09/17
+Après relecture de certaines Ressources comme Interconnexion-Congestion-Costs, il me semble que les conseils "Préconisations d’appels
+" correspondent à deux fréquences:
+	* Fréquence de mise à jour des données
+	* Fréquence du pas de temps pour chaque requête
+	
 ## 2. Classements
 
 Le nombre de couches est calculé entre la racine et chaques items de l'attribut "values" ou "time_series".
