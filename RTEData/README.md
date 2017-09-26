@@ -14,8 +14,8 @@ Problèmes:
 ### 25/09/17
 Après relecture de certaines Ressources comme Interconnexion-Congestion-Costs, il me semble que les conseils "Préconisations d’appels
 " correspondent à deux fréquences:
-	* Fréquence de mise à jour des données
-	* Fréquence du pas de temps pour chaque requête
+   * Fréquence de mise à jour des données
+   * Fréquence du pas de temps pour chaque requête
 	
 ## 2. Classements
 
