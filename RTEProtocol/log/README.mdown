@@ -10,10 +10,10 @@
 * Oth. --> marque toutes autres erreurs
 * Diff --> égale NReq - Somme(S200 + E4xx + E5xx)
 * 4xx/5xx --> numéro de l'erreur
-* NTry --> nombre de tentative pour une requpête Http^1
-* NJob --> nombre de division du Json reçu en résultat de la requête Http^1
+* NTry --> nombre de tentative pour une requpête Http<sup>1</sup>
+* NJob --> nombre de division du Json reçu en résultat de la requête Http<sup>1</sup>
 
-^1  ( intéressant lors de l'exécution )
+<sup>1</sup> intéressant lors de l'exécution
 ### Remarques
 * Il faut changer le log des erreurs: on enlève E408, E413, E429 on ajoute E403, E404, E414
 * Transformer Others comme une somme et non pas une pure aggrégations des indicateurs 
