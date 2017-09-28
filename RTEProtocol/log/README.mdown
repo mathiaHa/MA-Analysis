@@ -17,7 +17,7 @@
 * Transformer Others comme une somme et non pas une pure aggrégations des indicateurs 
 
 
-## Résultats du téléchargement de l'historique du 28/09
+## Résultats du téléchargement de l'historique RTE du 28/09
 |                  Resource Name                 |  NReq  |  S200  |  E400  |  E401  |  E408  |  E413  |  E429  |  E503  |  Oth.  |  Diff  |  NDoc  |  SDoc  |  EDoc  |  NTry  |     Last Request Date    |  NJOb  |
 |------------------------------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------------------------|--------|		  
 |                 accepted_offers                |   11   |   11   |    -   |    -   |    -   |    -   |    -   |    -   |    -   |    -   |   22   |   26   |    -   |    1   | 2017-09-27T18:30:00+02:00|    4   |
