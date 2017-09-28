@@ -1,3 +1,23 @@
+# Logs relatifs aux téléchargements
+
+## Documentation
+
+### Legende
+* S --> marque un succès
+* E --> marque une erreur
+* Req --> pour reqête Http
+* Doc --> pour document CosmosDB
+* Oth. --> marque toutes autres erreurs
+* Diff --> égale NReq - Somme(S200 + E4xx + E5xx)
+* 4xx/5xx --> numéro de l'erreur
+* NTry --> nombre de tentative pour une requpête Http ( intéressant lors de l'exécution )
+* NJob --> nombre de division du Json reçu en résultat de la requête Http
+### Remarques
+* Il faut changer le log des erreurs: on enlève E408, E413, E429 on ajoute E403, E404, E414
+* Transformer Others comme une somme et non pas une pure aggrégations des indicateurs 
+
+
+## Résultats du téléchargement de l'historique du 28/09
 |                  Resource Name                 |  NReq  |  S200  |  E400  |  E401  |  E408  |  E413  |  E429  |  E503  |  Oth.  |  Diff  |  NDoc  |  SDoc  |  EDoc  |  NTry  |     Last Request Date    |  NJOb  |
 |------------------------------------------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------------------------|--------|		  
 |                 accepted_offers                |   11   |   11   |    -   |    -   |    -   |    -   |    -   |    -   |    -   |    -   |   22   |   26   |    -   |    1   | 2017-09-27T18:30:00+02:00|    4   |
