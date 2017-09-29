@@ -1,7 +1,10 @@
 import pydocumentdb.documents as documents
 import pydocumentdb.document_client as document_client
 import pydocumentdb.errors as errors
-
+ 
+feedoptions = {
+    "SSLCertFile":"C:\Users\hauretouze_m\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Azure Cosmos DB Emulator\documentdbemulatorcert.cer"
+}
 class IDisposable:
     """ A context manager to automatically close an object with a close method
     in a with statement. """
@@ -50,42 +53,41 @@ class CollectionManagement:
 
         
     @staticmethod
-    def read_collection(client, id, db_id):
+    def read_documents(client, id, db_id):
         
         try:
             # read the collection, so we can get its _self
             collection_link = 'dbs/' + db_id + '/colls/{0}'.format(id)
-            collection = client.ReadCollection(collection_link)
+            collection = client.ReadCollection(collection_link, options = feedoptions)
 
             # now use its _self to query for Offers
-            offer = list(client.QueryOffers('SELECT * FROM c WHERE c.resource = \'{0}\''.format(collection['_self'])))[0]
+            documents = list(client.QueryOffers('SELECT * FROM c', options = feedoptions))
             
-            print('Found Offer \'{0}\' for Collection \'{1}\' and its offerType is \'{2}\''.format(offer['id'], collection['_self'], offer['offerType']))
-
         except errors.DocumentDBError as e:
             if e.status_code == 404:
                 print('A collection with id \'{0}\' does not exist'.format(id))
             else: 
                 raise errors.HTTPFailure(e.status_code)
+                
+        if not documents:
+            return
+        
+        return documents
 
-        offer['offerType'] = 'S2'
-        offer = client.ReplaceOffer(offer['_self'], offer)
-        
-        
-                                
+                   
     @staticmethod
     def read_collection(client, id, db_id):
-
+        print("dd")
         try:
             collection_link = 'dbs/' + db_id + '/colls/{0}'.format(id)
 
-            collection = client.ReadCollection(collection_link)
-            
-
+            collection = client.ReadCollection(collection_link, feedoptions)
+            print("couou")
         except errors.DocumentDBError as e:
             if e.status_code == 404:
                print('A collection with id \'{0}\' does not exist'.format(id))
             else: 
+                print(e)
                 raise errors.HTTPFailure(e.status_code)
         
         return collection
@@ -98,9 +100,6 @@ class CollectionManagement:
         if not collections:
             return
 
-        for collection in collections:
-            print(collection['id'])
-        
         return collections
         
     @staticmethod
@@ -118,31 +117,3 @@ class CollectionManagement:
                print('A collection with id \'{0}\' does not exist'.format(id))
             else: 
                 raise errors.HTTPFailure(e.status_code)   
-
-def run_sample():
-
-    with IDisposable(document_client.DocumentClient(HOST, {'masterKey': MASTER_KEY} )) as client:
-        try:
-            try:
-                client.CreateDatabase({"id": DATABASE_ID})
-            
-            except errors.DocumentDBError as e:
-                if e.status_code == 409:
-                   pass
-                else: 
-                    raise errors.HTTPFailure(e.status_code)
-            
-            try:
-                client.DeleteDatabase('dbs/' + db_id)
-            
-            except errors.DocumentDBError as e:
-                if e.status_code == 404:
-                   pass
-                else: 
-                    raise errors.HTTPFailure(e.status_code)
-
-        except errors.HTTPFailure as e:
-            print('\nrun_sample has caught an error. {0}'.format(e.message))
-        
-        finally:
-            print("\nrun_sample done")
