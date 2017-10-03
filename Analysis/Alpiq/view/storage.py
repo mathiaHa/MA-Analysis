@@ -7,6 +7,9 @@ feedoptions = {
 }
 
 def Reader(db_id, coll_id, doc_query, storage_id):
+	# Initialization
+	docs = None
+    
 	try:
 		client = document_client.DocumentClient(storage_id.host, {'masterKey': storage_id.master_key})
 		db_query = "select * from r where r.id = '{0}'".format(db_id)
