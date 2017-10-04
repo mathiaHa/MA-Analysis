@@ -4,4 +4,4 @@ class settings:
 	database_id = "LaSD"
 	scheduler_id = "scheduler"
 	errors_id = "errors"
-	collection_id = "rte_test7"
+	collection_id = "rte_test8"
