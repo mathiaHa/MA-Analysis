@@ -4,4 +4,16 @@ class settings:
 	database_id = "LaSD"
 	scheduler_id = "scheduler"
 	errors_id = "errors"
-	collection_id = "rte_test8"
+	collection_id = "rte_test9"
+
+class groups:
+	balancing_capacity = "type"
+	balancing_energy = "tso_offering"
+	bre_imbalance_reconstitution = None
+	bre_temporal_reconciliations = "type"
+	
+	actual_generation = "production_type"
+	generation_forecast = "type"
+	generation_installed_capacities = "type"
+	unavailability_additional_information = "type"
+	wholesale_market = None

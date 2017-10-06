@@ -35,3 +35,21 @@ def Reader(db_id, coll_id, doc_query, storage_id):
 			return docs
 		else:
 			return None
+        
+def ReaderbyResourceNames(db_id, coll_id, storage_id, res_names):
+	# Initialization
+	data = {}
+	dividers = {}
+	
+	for res_name in res_names:
+	
+	doc_query = "select * from c where c.resourcename = '{0}'".format(res_name)
+	
+	docs = st.Reader(db_id, coll_id, doc_query, storage_id)
+	
+	if not len(docs) == 0:
+		df = pd.DataFrame([item for doc in docs for item in doc["data"]])
+		data[res_name] = df
+		
+		dividers[res_name] = getattr(cfg.groups, docs[0]["apiname"])
+ 	return data, dividers
