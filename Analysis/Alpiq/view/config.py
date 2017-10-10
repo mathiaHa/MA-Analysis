@@ -4,7 +4,7 @@ class settings:
 	database_id = "LaSD"
 	scheduler_id = "scheduler"
 	errors_id = "errors"
-	collection_id = "rte_test9"
+	collection_id = "rte_test1"
 
 class groups:
 	balancing_capacity = "type"

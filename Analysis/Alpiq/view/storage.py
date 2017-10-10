@@ -36,20 +36,31 @@ def Reader(db_id, coll_id, doc_query, storage_id):
 		else:
 			return None
         
+def GetDataBaseLink(client, db_id):
+	db_query = "select * from r where r.id = '{0}'".format(db_id)
+	db = list(client.QueryDatabases(db_query, options = feedoptions))[0]
+	return db['_self']
+
+def GetCollectionLink(client, db_id, coll_id):
+	db_link = GetDataBaseLink(client, db_id)
+	coll_query = "select * from r where r.id = '{0}'".format(coll_id)
+	coll = list(client.QueryCollections(db_link, coll_query, options = feedoptions))
+	return coll[0]['_self']
+
 def ReaderbyResourceNames(db_id, coll_id, storage_id, res_names):
 	# Initialization
 	data = {}
 	dividers = {}
 	
 	for res_name in res_names:
-	
-	doc_query = "select * from c where c.resourcename = '{0}'".format(res_name)
-	
-	docs = st.Reader(db_id, coll_id, doc_query, storage_id)
-	
-	if not len(docs) == 0:
-		df = pd.DataFrame([item for doc in docs for item in doc["data"]])
-		data[res_name] = df
 		
-		dividers[res_name] = getattr(cfg.groups, docs[0]["apiname"])
+		doc_query = "select * from c where c.resourcename = '{0}'".format(res_name)
+		
+		docs = st.Reader(db_id, coll_id, doc_query, storage_id)
+		
+		if not len(docs) == 0:
+			df = pd.DataFrame([item for doc in docs for item in doc["data"]])
+			data[res_name] = df
+			
+			dividers[res_name] = getattr(cfg.groups, docs[0]["apiname"])
  	return data, dividers
