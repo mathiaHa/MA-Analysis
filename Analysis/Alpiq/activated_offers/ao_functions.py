@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import chardet
+import pytz
 
 # Read CSV
 
@@ -10,7 +11,7 @@ def ReadCSV(path, seps):
         # Read the file
         with open(path, 'rb') as f:
             result = chardet.detect(f.readline())
-        print result
+        
         docs = pd.read_csv(path, index_col=0, parse_dates=True, sep = separator, encoding=result["encoding"], decimal=".", thousands=',')
 
         if not docs.shape[1] == 0:
@@ -23,7 +24,6 @@ def ReadCSV(path, seps):
 def NormalizeCSV(docs, columns, traduction):
     # Change the column titles
     docs.columns = columns
-    print docs
     
     # Normalization of the columns
     docs.type = docs.type.apply(lambda x: traduction[x.encode("utf-8")] if traduction.has_key(x.encode("utf-8")) else x)
@@ -62,20 +62,22 @@ def CreateDictOfDocument(groups):
     return dic
 
 def CreateData(df):
+    zone = pytz.timezone('Europe/Paris')
     df.index = range(df.shape[0])
     df = df.drop(["Dates", "Heures"], axis=1)
-    df.start_date = df.start_date.apply(lambda x: str(x))
-    df.end_date = df.end_date.apply(lambda x: str(x))
+    df.start_date = df.start_date.apply(lambda x: str(zone.localize(x)))
+    df.end_date = df.end_date.apply(lambda x: str(zone.localize(x)))
     df.price = df.price.apply(lambda x: str(x) if not np.isnan(x) else None)
     values = df.T.to_dict().values()
     return values
 
 def GetStartEnd(groups):
     dic = {}
+    zone = pytz.timezone('Europe/Paris')
     for key, df in groups:
 
         dic[key] = { 
-            "start_date" : df.start_date.min(),
-            "end_date" : df.end_date.max()
+            "start_date" : zone.localize(df.start_date.min()),
+            "end_date" : zone.localize(df.end_date.max())
         }
     return dic
