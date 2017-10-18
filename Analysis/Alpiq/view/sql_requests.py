@@ -143,7 +143,7 @@ MA_query = """
         (select * from table_df as t where t.resource = 'accepted_offers' and t.value_type = 'value' and t.type='RR' and t.direction = '{accepted_direction}') as accorr
             on i.start_date = accorr.start_date
     where
-        i.downgraded in ({downgraded}) and
+        (i.downgraded in ({downgraded}) or i.alert in ({alert})) and
         i.resource = 'accepted_offers' and 
         i.value_type = 'value' and
         i.type = 'FCR';
@@ -171,6 +171,7 @@ weekday_query = """
     from 
         {table_df} as t
     where
+        (t.downgraded in ({downgraded}) or t.alert in ({alert})) and
         t.resource = '{resource}' and
         t.value_type = '{value_type}';
     
