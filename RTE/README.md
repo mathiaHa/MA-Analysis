@@ -15,6 +15,11 @@ La forme de la courbe de consommation évolue au cours de l'année, en été il 
 * [volumes_per_reasons](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/motif.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/volumes_per_reasons.json)
 * [volumes_per_energy_type](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/type_offre.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/volumes_per_energy_type.json)
 ### [Bre temporal reconstitution](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux.jsp)
+```
+* national_reference_load_curves - national_measured_by_RE_load_curves = national_profiling_imbalances
+* Quand national_profiling_imbalances < 0 on a national_alignment_coefficients < 1 
+Donc national_alignment_coefficients = national_reference_load_curves / national_measured_by_RE_load_curves
+```
 * [national_reference_load_curves](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux_C10.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/bre_imbalance_reconstitution/national_reference_load_curves.json)
 * [national_profiling_imbalances](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux_C11.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/bre_imbalance_reconstitution/national_profiling_imbalances.json)
 * [national_alignment_coefficients](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux_C12.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/bre_imbalance_reconstitution/national_alignment_coefficients.json)
@@ -31,5 +36,5 @@ La forme de la courbe de consommation évolue au cours de l'année, en été il 
 * [capacities_per_production_unit](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/prod/production_groupe.jsp)
 
 
-### Non classé mais intéressants
+## Non classé mais intéressants
 * [Nom-code EIC du RE](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/meca_capa/meca_capa_rpc.jsp)
