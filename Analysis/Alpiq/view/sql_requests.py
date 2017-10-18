@@ -92,8 +92,8 @@ MA_query = """
         i.resource,
         i.alert,
         i.downgraded,
-        a.value as available_value,
-        r.value as required_value,
+        a.value as peak_available_value,
+        r.value as peak_required_value,
         
         prm.value as procured_mfrr,
         actom.value as activated_mfrr,
@@ -101,7 +101,16 @@ MA_query = """
         
         prrr.value as procured_rr,
         actorr.value as activated_rr,
-        accorr.value as accepted_rr
+        accorr.value as accepted_rr,
+        
+        case cast (strftime('%w', i.start_date) as integer)
+          when 0 then 'Sunday'
+          when 1 then 'Monday'
+          when 2 then 'Tuesday'
+          when 3 then 'Wednesday'
+          when 4 then 'Thursday'
+          when 5 then 'Friday'
+          else 'Saturday' end as weekday
     from 
         table_df as i
         
@@ -140,3 +149,63 @@ MA_query = """
         i.type = 'FCR';
 """
 
+weekday_query = """
+    select distinct
+        t.start_date,
+        t.resource,
+        t.type,
+        t.direction,
+        t.downgraded,
+        t.alert,
+        t.value as {value_type},
+        case cast (strftime('%w', t.start_date) as integer)
+          when 0 then 'Sunday'
+          when 1 then 'Monday'
+          when 2 then 'Tuesday'
+          when 3 then 'Wednesday'
+          when 4 then 'Thursday'
+          when 5 then 'Friday'
+          else 'Saturday' end as weekday
+        
+        
+    from 
+        {table_df} as t
+    where
+        t.resource = '{resource}' and
+        t.value_type = '{value_type}';
+    
+"""
+
+direction_query = """
+    select distinct
+        i.start_date,
+        i.direction,
+        i.resource,
+        i.alert,
+        i.downgraded,
+        
+        up.value as {resource}_{resource_type}_UPWARD,
+        down.value as {resource}_{resource_type}_DOWNWARD,
+        flat.value as {resource}_{resource_type}_UP_DOWN,
+        
+        
+        
+    from 
+        table_df as i
+                 
+    left join
+        (select * from table_df as t where t.resource = '{resource}' and t.value_type = '{value_type}' and t.type='{resource_type}' and t.direction = 'UPWARD') as up
+            on i.start_date = up.start_date
+    left join
+        (select * from table_df as t where t.resource = '{resource}' and t.value_type = '{value_type}' and t.type='{resource_type}' and t.direction = 'DOWNWARD') as down
+            on i.start_date = down.start_date
+    left join
+        (select * from table_df as t where t.resource = '{resource}' and t.value_type = '{value_type}' and t.type='{resource_type}' and t.direction = 'UP_DOWN') as flat
+            on i.start_date = flat.start_date
+            
+    where
+        i.downgraded in ({downgraded}) and
+        i.resource = 'accepted_offers' and 
+        i.value_type = 'value' and
+        i.type = 'FCR';
+"""
