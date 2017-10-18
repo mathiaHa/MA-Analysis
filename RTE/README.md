@@ -29,9 +29,6 @@ La forme de la courbe de consommation évolue au cours de l'année, en été il 
 * [capacities_cpc](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/prod/parc_reference.jsp)
 * [capacities_per_production_type](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/prod/realisation_production.jsp)
 * [capacities_per_production_unit](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/prod/production_groupe.jsp)
-* []()
-* []()
-* []()
 
 
 ### Non classé mais intéressants
