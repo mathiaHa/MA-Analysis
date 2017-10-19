@@ -8,6 +8,7 @@ Référence les liens des explications de RTE en fonction des noms de ressources
 * [peak_daily_margins](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/jour/marges.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_capacity/peak_daily_margins.json)  
 La forme de la courbe de consommation évolue au cours de l'année, en été il n'existe plus de pointe de consommation le soir : la marge associée n'est donc plus calculée.
 ### [Balancing Energy](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/equilibrage.jsp)
+> [Les examples issues de la page test des apis sont faux](./RTEData/rte_data_samples/Equilibrage/balancing_energy)
 * [imbalance_data](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/equilibrage.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/imbalance_data.json)
 * [lead_times](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/DMO_Domin.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/lead_times.json)
 * [prices](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/jour/courbe.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/prices.json)
@@ -25,6 +26,9 @@ Donc national_alignment_coefficients = national_reference_load_curves / national
 * [national_alignment_coefficients](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux_C12.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/bre_imbalance_reconstitution/national_alignment_coefficients.json)
 * [additional_national_alignment_coefficients](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux_C41.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/bre_imbalance_reconstitution/additional_national_alignment_coefficients.json)
 #### --> contient: Bre temporal reconciliations
+## [Mécanisme de Capacité](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/meca_capa/meca_capa.jsp)
+### [signal](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/meca_capa/meca_capa_pp.jsp)
+	[Sample](./RTEData/rte_data_samples/Mecanisme_Capacite/signal/signals.json)
 ## [Production](https://github.com/mathiaHa/MA-Analysis/tree/rteb/RTE/RTEData/rte_data_samples/Production)
 ### [Generation_forast](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/prod/prevision_production.jsp)
 ### [Unavailability additional information](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/prod/indisponibilites.jsp)
