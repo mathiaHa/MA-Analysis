@@ -9,7 +9,7 @@ Référence les liens des explications de RTE en fonction des noms de ressources
 * [accepted_offeres](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/volume_journalier_energie_ajustement.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_capacity/accepted_offers.json)
 * [insufficients_offers](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/histo/modesDegrades.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_capacity/insufficients_offers.json)
 * [peak_daily_margins](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/jour/marges.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_capacity/peak_daily_margins.json)  
-La forme de la courbe de consommation évolue au cours de l'année, en été il n'existe plus de pointe de consommation le soir : la marge associée n'est donc plus calculée.
+    > La forme de la courbe de consommation évolue au cours de l'année, en été il n'existe plus de pointe de consommation le soir : la marge associée n'est donc plus calculée.
 
 ### [Balancing Energy](https://data.rte-france.com/documents/20182/33858/user_guide/a6c21922-a2f6-4a05-83a9-b727f47dafa2?version=1.0)
 
@@ -19,7 +19,14 @@ La forme de la courbe de consommation évolue au cours de l'année, en été il 
 * [capacities_prices]()
 * [imbalance_data](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/pre.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/imbalance_data.json)
 * [lead_times](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/DMO_Domin.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/lead_times.json)
-* [prices](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/jour/courbe.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/prices.json)
+    > raisons d'équilibrage:  (nom == abréviation_json == abréviation_langage ) 
+	> * Equilibre du système == "balancing" == "P=C"
+	> * Congestion == "RSO hors Countertrading/Redispatching"
+	> * Sécurité système == "as" == SSY
+	> * Marge == "margin" == "MAR"
+* [prices](https://clients.rte-france.com/lang/fr/visiteurs/vie/mecanisme/volumes_prix/equilibrage.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/prices.json)
+    > On peut trouver les prix PMPh/b et PMEh/b en bas à droite dans un sous onglet  
+	> Description plus détaillée dans le [guide de l'API pages 39 -> 43](https://data.rte-france.com/documents/20182/33858/user_guide/a6c21922-a2f6-4a05-83a9-b727f47dafa2?version=1.0)
 * [tso_offers](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/echanges_entre_GRT_PS_histo.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/tso_offers.json)  
     > Représente le système d'[échange Balit](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/echanges_balit.jsp) entre GRT
 * [volumes_per_reasons](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/motif.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/volumes_per_reasons.json)
