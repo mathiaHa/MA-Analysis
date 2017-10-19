@@ -13,13 +13,15 @@ La forme de la courbe de consommation évolue au cours de l'année, en été il 
 
 ### [Balancing Energy](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/equilibrage.jsp)
 
-> [Les examples issues de la page test des apis sont faux](./RTEData/rte_data_samples/Equilibrage/balancing_energy)
-> Il faut donc se rendre sur le [guide explicatif de l'API](https://data.rte-france.com/documents/20182/33858/user_guide/a6c21922-a2f6-4a05-83a9-b727f47dafa2?version=1.0) et lire chaque description/exemple
+> [Les examples issues de la page test des apis sont faux.](./RTEData/rte_data_samples/Equilibrage/balancing_energy)  
+> Il faut donc se rendre sur le [guide explicatif de l'API](https://data.rte-france.com/documents/20182/33858/user_guide/a6c21922-a2f6-4a05-83a9-b727f47dafa2?version=1.0) et lire chaque description/exemple.
 
+* [capacities_prices]()
 * [imbalance_data](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/pre.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/imbalance_data.json)
 * [lead_times](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/DMO_Domin.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/lead_times.json)
 * [prices](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/jour/courbe.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/prices.json)
-* [tso_offers](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/echanges_entre_GRT.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/tso_offers.json)
+* [tso_offers](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/echanges_entre_GRT_PS_histo.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/tso_offers.json)  
+> Représente le système d'[échange Balit](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/echanges_balit.jsp) entre GRT
 * [volumes_per_reasons](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/motif.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/volumes_per_reasons.json)
 * [volumes_per_energy_type](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/type_offre.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/volumes_per_energy_type.json)
 
