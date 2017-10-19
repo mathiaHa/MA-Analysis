@@ -1,9 +1,9 @@
 # Explications Données RTE
 Référence les liens des explications de RTE en fonction des noms de ressources utilisées
 
-## [Equilibrage](https://github.com/mathiaHa/MA-Analysis/tree/rteb/RTE/RTEData/rte_data_samples/Equilibrage)
+## [Equilibrage](https://github.com/mathiaHa/MA-Analysis/tree/rteb/RTE/RTEData/rte_data_samples/Equilibrage) 
 
-### [Balancing Capacity](https://github.com/mathiaHa/MA-Analysis/tree/rteb/RTE/RTEData/rte_data_samples/Equilibrage/balancing_capacity)
+### [Balancing Capacity](https://data.rte-france.com/documents/20182/33794/user_guide/f10ac4c4-59c6-442e-9ddb-f44b72b9a8ed?version=1.1)
 
 * [procured_reserves](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/reserve_ajustement.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_capacity/procured_reserves.json)
 * [accepted_offeres](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/volume_journalier_energie_ajustement.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_capacity/accepted_offers.json)
@@ -11,7 +11,7 @@ Référence les liens des explications de RTE en fonction des noms de ressources
 * [peak_daily_margins](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/jour/marges.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_capacity/peak_daily_margins.json)  
 La forme de la courbe de consommation évolue au cours de l'année, en été il n'existe plus de pointe de consommation le soir : la marge associée n'est donc plus calculée.
 
-### [Balancing Energy](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/equilibrage.jsp)
+### [Balancing Energy](https://data.rte-france.com/documents/20182/33858/user_guide/a6c21922-a2f6-4a05-83a9-b727f47dafa2?version=1.0)
 
 > [Les examples issues de la page test des apis sont faux.](./RTEData/rte_data_samples/Equilibrage/balancing_energy)  
 > Il faut donc se rendre sur le [guide explicatif de l'API](https://data.rte-france.com/documents/20182/33858/user_guide/a6c21922-a2f6-4a05-83a9-b727f47dafa2?version=1.0) et lire chaque description/exemple.
