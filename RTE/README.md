@@ -19,19 +19,29 @@ Référence les liens des explications de RTE en fonction des noms de ressources
 * [capacities_prices]()
 * [imbalance_data](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/pre.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/imbalance_data.json)
 * [lead_times](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/DMO_Domin.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/lead_times.json)
-    > raisons d'équilibrage:  (nom == abréviation_json == abréviation_langage ) 
-	> * Equilibre du système == "balancing" == "P=C"
-	> * Congestion == "RSO hors Countertrading/Redispatching"
-	> * Sécurité système == "as" == SSY
-	> * Marge == "margin" == "MAR"
 * [prices](https://clients.rte-france.com/lang/fr/visiteurs/vie/mecanisme/volumes_prix/equilibrage.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/prices.json)
     > On peut trouver les prix PMPh/b et PMEh/b en bas à droite dans un sous onglet  
 	> Description plus détaillée dans le [guide de l'API pages 39 -> 43](https://data.rte-france.com/documents/20182/33858/user_guide/a6c21922-a2f6-4a05-83a9-b727f47dafa2?version=1.0)
 * [tso_offers](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/echanges_entre_GRT_PS_histo.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/tso_offers.json)  
     > Représente le système d'[échange Balit](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/echanges_balit.jsp) entre GRT
 * [volumes_per_reasons](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/motif.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/volumes_per_reasons.json)
-* [volumes_per_energy_type](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/type_offre.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/volumes_per_energy_type.json)
-
+	> Raisons d'équilibrage:  (nom == abréviation_json == abréviation_langage ) 
+	> * Equilibre du système == "balancing" == "P=C"
+	> * Congestion == "RSO hors Countertrading/Redispatching"
+	> * Services systèmes == "as" == SSY
+	> * Marge == "margin" == "MAR"
+* [volumes_per_entity_type](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/type_offre.jsp)-> [Sample](./RTEData/rte_data_samples/Equilibrage/balancing_energy/volumes_per_entity_type.json)
+	> Type de connexion:
+	> * Point d'injection == "injection"
+	> * Point de soutirage == "withdrawal"
+	> * Point d'échange == "exchange"
+	> * Echanges d'ajustement entre GRT == "balit" (ne prends pas en compte IGCC)
+* [volumes_per_energy_type](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/equilibrage.jsp) -> [Sample dans le guide page 87](https://data.rte-france.com/documents/20182/33858/user_guide/a6c21922-a2f6-4a05-83a9-b727f47dafa2?version=1.0)
+	> Contient plusieurs informations:
+	> * [activated_offers](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/equilibrage.jsp) (-> Volumes et Déséquilibre France)
+	> * [countertrading](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/redispatch_countertrade_and_costs.jsp)
+	> * [redispatching](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/redispatch_countertrade_and_costs.jsp)
+	> * [costs](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/redispatch_countertrade_and_costs.jsp) du countertrading et redispatching
 ### [Bre temporal reconstitution](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux.jsp)
 
 
