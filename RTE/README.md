@@ -58,8 +58,8 @@ Référence les liens des explications de RTE en fonction des noms de ressources
 
 ## [Mécanisme de Capacité](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/meca_capa/meca_capa.jsp)
 
-### [signal](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/meca_capa/meca_capa_pp.jsp)
-[Sample](./RTEData/rte_data_samples/Mecanisme_Capacite/signal/signals.json)
+### [signal](https://data.rte-france.com/documents/20182/34512/user_guide/eb677503-de2d-4826-9851-f4af20393b13?version=1.1)
+* singals](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/meca_capa/meca_capa_pp.jsp) -> [Sample](./RTEData/rte_data_samples/Mecanisme_Capacite/signal/signals.json)
 
 ## [Production](https://github.com/mathiaHa/MA-Analysis/tree/rteb/RTE/RTEData/rte_data_samples/Production)
 
