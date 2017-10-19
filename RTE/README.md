@@ -1,6 +1,6 @@
 # Explications Données RTE
 Référence les liens des explications de RTE en fonction des noms de ressources utilisées  
-![Legende](./Legenge_Explications.PNG)
+![Legende](./Legende_Explications.PNG)
 ## [Equilibrage](https://github.com/mathiaHa/MA-Analysis/tree/rteb/RTE/RTEData/rte_data_samples/Equilibrage) 
 
 ### [Balancing Capacity](https://data.rte-france.com/documents/20182/33794/user_guide/f10ac4c4-59c6-442e-9ddb-f44b72b9a8ed?version=1.1)
