@@ -26,9 +26,9 @@ La forme de la courbe de consommation évolue au cours de l'année, en été il 
 ### [Bre temporal reconstitution](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux.jsp)
 
 
-> national_reference_load_curves - national_measured_by_RE_load_curves = national_profiling_imbalances
-> Quand national_profiling_imbalances < 0 on a national_alignment_coefficients < 1 
-> Donc national_alignment_coefficients = national_reference_load_curves / national_measured_by_RE_load_curves
+> national_reference_load_curves - national_measured_by_RE_load_curves = national_profiling_imbalances  
+> Quand national_profiling_imbalances < 0 on a national_alignment_coefficients < 1  
+> Donc national_alignment_coefficients = national_reference_load_curves / national_measured_by_RE_load_curves  
 
 * [national_reference_load_curves](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux_C10.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/bre_imbalance_reconstitution/national_reference_load_curves.json)
 * [national_profiling_imbalances](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux_C11.jsp) -> [Sample](./RTEData/rte_data_samples/Equilibrage/bre_imbalance_reconstitution/national_profiling_imbalances.json)
