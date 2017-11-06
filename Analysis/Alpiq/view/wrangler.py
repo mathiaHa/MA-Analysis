@@ -15,19 +15,6 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import types
 import itertools
 
-def GetDataFromCosmos(HOST, MASTER_KEY, DATABASE_ID, COLLECTION_ID, proc_id, params, options):
-    dodocs = None
-    try:
-        client = document_client.DocumentClient(HOST, {'masterKey': MASTER_KEY})
-        
-        coll_link = st.GetCollectionLink(client, DATABASE_ID, COLLECTION_ID)
-        
-        dodocs = st.ExecuteProcedure( client, coll_link, proc_id, params, options )
-    except BaseException as e:
-        raise e
-    
-    return dodocs
-    
 def MergeCosmosData( dodocs ):
     
     data = []
@@ -35,8 +22,6 @@ def MergeCosmosData( dodocs ):
     for key, value in dodocs.iteritems():
         df = pd.DataFrame(value)
         df["resource"] = key
-        df["alert"] = "NORMAL"
-        df["downgraded"] = "NORMAL"
         data.append(df)
         
     data = norm.FindProbableFloat(data)
@@ -49,76 +34,105 @@ def MarkInsufficientOffers( df ):
     for index, row in df[df.resource == "insufficients_offers"].iterrows():
         if row.type == "DOWNGRADED":
             condition = np.logical_and(df.start_date >= row.start_date, df.start_date < row.end_date)
-            df.loc[condition, "downgraded"] = row.nature
+            df.loc[condition, "downgraded"] = row["nature"]
         elif row.type == "WARNING":
             condition = np.logical_and(df.start_date >= row.start_date, df.start_date < row.end_date)
-            df.loc[condition, "alert"] = row.nature
+            df.loc[condition, "alert"] = row["nature"]
     
     return df
 
-def NormalizePeakDailyMargins( df ):
+def MarkPPDay( df ):
+    for index, row in df[df.type == "PP2"].iterrows():
+        if row.value:
+            condition = np.logical_and(df.start_date >= row.start_date, df.start_date < row.end_date)
+            df.loc[condition, "PP"] = row.type
+    for index, row in df[df.type == "PP1"].iterrows():
+        if row.value:
+            condition = np.logical_and(df.start_date >= row.start_date, df.start_date < row.end_date)
+            df.loc[condition, "PP"] = row.type
+            
+    return df
 
-    indexs = [] #index of original peak daily margins row
-    df3 = pd.DataFrame([]) 
+def Row2Categories ( df, resources ):
+    for resource in resources:
+        if resource == "insufficients_offers":
+            df["alert"] = "NORMAL"
+            df["downgraded"] = "NORMAL"
+            df = MarkInsufficientOffers( df )
+            df = df[df.resource != "insufficients_offers"] # Drop Rows
+        
+        elif resource == "signals":
+            df["PP"] = "NORMAL"
+            df = MarkPPDay( df )
+            df = df[df.resource != "signals"]
+    return df
+
+def update_startend(x, df1, freq):
+    if x.name < df1.shape[0]:
+        x.end_date = x.start_date + pd.Timedelta(freq)
+    else:
+        x.start_date = x.end_date - pd.Timedelta(freq)
+    return x
+
+def PropagateData( df, resources, freq='30 min' ):
     
-    for index, row in df[df.resource == "peak_daily_margins"].iterrows():
-        # start/end of margins
-        start = pd.date_range(start=row.start_date, end=row.end_date, freq='30T', closed='left')
-        end = pd.date_range(start=row.start_date, end=row.end_date, freq='30T', closed='right')
+    for resource in resources:
+        if resource in ["peak_daily_margins"]:
+            
+            df0 = df[df.resource == resource]
+
+            df1 = df0.set_index("start_date").resample(freq).pad().reset_index()
+            df2 = df0.set_index("end_date").resample(freq).bfill().reset_index()
+            df3 = pd.concat([df1, df2], ignore_index=True)
+
+
+            df3 = df3[ df3.start_date < df3.end_date ].apply(lambda x: update_startend(x, df1, freq), axis=1)
+
+            df = df[df.resource != resource]
+            df = df.append(df3, ignore_index=True)
+    return df
+
+def MergeColumns( df ):
+    cols = list(df.columns.values)
     
-        # search current direction of market
-        do = df[df.start_date == row.start_date]
-        distance = do[do.resource == "accepted_offers"].direction.unique()
-
-        row.direction = distance[0] if len(distance)>0 else "UP_DOWN"
-
-        df2 = pd.concat([row]*len(start), ignore_index=True, axis=1).T
-
-        df2.start_date = start
-        df2.end_date = end
-
-        df3 = df3.append(df2)
-        indexs.append(index)
-
-    df = df.drop(df.index[[indexs]])
-    df = df.append(df3, ignore_index=True)
+    if set(["direction", "system_trend"]).issubset(set(cols)):
+        df.loc[df.system_trend.isnull() == False, "direction"] = df.loc[df.system_trend.isnull() == False, "system_trend"].map({'HAUSSE': 'UPWARD', 'BAISSE': 'DOWNWARD', 'NULLE': 'UP_DOWN'})
     
     return df
 
 def GetMarket(cfg, params, options):
     try:
-        dodocs = GetDataFromCosmos(cfg["HOST"], cfg["MASTER_KEY"], cfg["DATABASE_ID"], cfg["COLLECTION_ID"], cfg["PROCEDURE_ID"], params, options)
-    
-        data = []
-
-        df = MergeCosmosData( dodocs )
+        df = st.GetDataFromCosmos(cfg["HOST"], cfg["MASTER_KEY"], cfg["DATABASE_ID"], cfg["COLLECTION_ID"], cfg["PROCEDURE_ID"], params, options)
+        
+        # Drop Pulicates data
+        df.drop_duplicates(keep='first', inplace=True)
+        
+        # fillna here
+        
+        df = MergeColumns( df )
+        
+        if "direction" in df.reset_index().columns:
+            df.loc[df.direction.isnull(),"direction"] = "UP_DOWN"
     
         # Set date columns as normalized datetime columns
         df[["start_date", "end_date"]]= df[["start_date", "end_date"]].astype(np.datetime64)
         df = df[df.start_date < df.end_date]
         
-        df = MarkInsufficientOffers( df )
-
-        df = NormalizePeakDailyMargins( df )
-
-        # Drop Rows
-        df = df[df.resource != "insufficients_offers"]
+        df = PropagateData( df, params["resources"], '30 min' )
         
-        valueList = ["available_value","price", "required_value", "value"]
-        
-        
+        df = Row2Categories ( df, params["resources"] )
 
-        divider = getattr(cfg["GROUPS"], "balancing_capacity")
-        NumberTypes = (types.IntType, types.LongType, types.FloatType, types.ComplexType)
+        valueList = list(df.select_dtypes(include=["int","float","float64","long"]).columns) #["available_value","price", "required_value", "value"]
+        
         if not valueList ==[] :
             table_df = pd.pivot_table(
                         df,
                         values=valueList,
-                        index=['start_date','end_date','resource','type','direction','alert','downgraded'],
+                        index=cfg["index"],
                         aggfunc= 'first')
-
+            
             # Go from multi columns to cube
-            level = 7
+            level = len(cfg["index"])
             table_df = table_df.stack(0).reset_index(level)
             table_df = table_df.rename(index=str, columns={"level_"+str(level): "value_type"})
 
@@ -128,7 +142,7 @@ def GetMarket(cfg, params, options):
 
 
             # Set multi index dataframe
-            table_df = table_df.set_index(['start_date','end_date','resource','type','direction','alert','downgraded',"value_type"])
+            table_df = table_df.set_index(cfg["index"]+["value_type"])
             table_df = table_df.rename(index=str, columns={0:"value"})
     except BaseException as e:
         print e

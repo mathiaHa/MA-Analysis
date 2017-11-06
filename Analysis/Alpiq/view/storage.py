@@ -5,6 +5,8 @@ import pydocumentdb.http_constants as http_constants
 
 import json
 
+import pandas as pd
+
 feedoptions = {
     'SSLCertFile':'C:\Users\hauretouze_m\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Azure Cosmos DB Emulator\documentdbemulatorcert.cer'
 }
@@ -83,3 +85,26 @@ def ExecuteProcedure( client, coll_link, proc_id, params, options ):
     print client.last_response_headers.get(http_constants.HttpHeaders.ScriptLogResults)
     
     return dodocs
+
+def GetDataFromCosmos(HOST, MASTER_KEY, DATABASE_ID, COLLECTION_ID, proc_id, params, options):
+    results = []
+    try:
+        client = document_client.DocumentClient(HOST, {'masterKey': MASTER_KEY})
+        
+        coll_link = GetCollectionLink(client, DATABASE_ID, COLLECTION_ID)
+        
+        while True:
+            
+            response = ExecuteProcedure( client, coll_link, proc_id, params, options )
+            results = results + response["queryResponse"]
+            
+            # If the request is not finished yet we continue with the token
+            if not "lastContinuationToken" in response.viewkeys() or response["lastContinuationToken"] == None:
+                break
+            else:
+                params["options"]["continuation"] = response["lastContinuationToken"]
+        
+    except BaseException as e:
+        raise e
+    
+    return pd.DataFrame(results)

@@ -4,8 +4,7 @@ class settings:
     database_id = "LaSD"
     scheduler_id = "scheduler_causality1"
     errors_id = "errors"
-    collection_id = "causality1"
-
+    collection_id = "rte4"
 
 class groups:
     balancing_capacity = "type"
@@ -18,3 +17,17 @@ class groups:
     generation_installed_capacities = "type"
     unavailability_additional_information = "type"
     wholesale_market = None
+    
+
+class rteapi:
+    def __init__(self):
+        self.balancing_capacity = ["accepted_offers", "insufficients_offers", "peak_daily_margins", "procured_reserves"]
+        self.balancing_energy = ["capacities_prices", "imbalance_data", "lead_times", "prices", "tso_offers", "volumes_per_reasons", "volumes_per_entity_type", "volumes_per_energy_type"]
+        self.signals = ["signal"]
+    
+    def findapi( self, resource ):
+        for property, resources in self.__dict__.iteritems():
+            print property
+            if resource in resources:
+                return property
+        return "not found"
