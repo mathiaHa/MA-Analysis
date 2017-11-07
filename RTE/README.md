@@ -42,6 +42,9 @@ Référence les liens des explications de RTE en fonction des noms de ressources
 	> * [countertrading](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/redispatch_countertrade_and_costs.jsp)
 	> * [redispatching](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/redispatch_countertrade_and_costs.jsp)
 	> * [costs](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/redispatch_countertrade_and_costs.jsp) du countertrading et redispatching
+	> * [downward/upward volume](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/mecanisme/volumes_prix/equilibrage.jsp) pour les 4 types de réserves(FCR, aFRR, mFRR, RR)
+	> * [imbalance_netting_volume](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/initiative_igcc.jsp)
+	
 ### [Bre temporal reconstitution](http://clients.rte-france.com/lang/fr/clients_traders_fournisseurs/vie/vie_reconst_flux.jsp)
 
 

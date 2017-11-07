@@ -115,7 +115,7 @@ def GetMarket(cfg, params, options):
             df.loc[df.direction.isnull(),"direction"] = "UP_DOWN"
     
         # Set date columns as normalized datetime columns
-        df[["start_date", "end_date"]]= df[["start_date", "end_date"]].astype(np.datetime64)
+        df[["start_date", "end_date"]]= df[["start_date", "end_date"]].astype(np.datetime64).tz_localize('UTC')
         df = df[df.start_date < df.end_date]
         
         df = PropagateData( df, params["resources"], '30 min' )
@@ -144,6 +144,14 @@ def GetMarket(cfg, params, options):
             # Set multi index dataframe
             table_df = table_df.set_index(cfg["index"]+["value_type"])
             table_df = table_df.rename(index=str, columns={0:"value"})
+            
+            table_df.index.set_levels(
+                table_df.index.get_level_values(0).astype(np.datetime64).tz_localize('UTC').tz_convert('Europe/Paris'), 
+                level=0, inplace=True)
+            table_df.index.set_levels(
+                table_df.index.get_level_values(1).astype(np.datetime64).tz_localize('UTC').tz_convert('Europe/Paris'), 
+                level=1, inplace=True)
+            
     except BaseException as e:
         print e
             
